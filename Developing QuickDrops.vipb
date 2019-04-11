@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2019-02-21 11:18:16" Modified_Date="2019-04-11 14:28:39" Creator="ni" Comments="" ID="204030d350300a6902694fecccc61230">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2019-02-21 11:18:16" Modified_Date="2019-04-11 17:32:21" Creator="ni" Comments="" ID="cedf95013f99903c613e98a4d7c77c1e">
   <Library_General_Settings>
     <Package_File_Name>NEVSTOP_lib_Developing_QuickDrops</Package_File_Name>
     <Library_Version>0.1.0.3</Library_Version>
@@ -183,7 +183,7 @@
     </Install_Requirements>
     <LabVIEW>
       <close_labview_before_install>false</close_labview_before_install>
-      <restart_labview_after_install>false</restart_labview_after_install>
+      <restart_labview_after_install>true</restart_labview_after_install>
       <skip_mass_compile_after_install>false</skip_mass_compile_after_install>
     </LabVIEW>
     <VI_Docs>
