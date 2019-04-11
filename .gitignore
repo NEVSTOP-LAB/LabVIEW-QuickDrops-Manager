@@ -1,0 +1,6 @@
+# LabVIEW Ignore Files
+*.lvlps
+*.aliases
+
+# VIP Compiled Folder
+/vip

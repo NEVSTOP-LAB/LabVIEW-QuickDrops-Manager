@@ -1,0 +1,9 @@
+Sometimes the "Make Current Values Default" causes a lot of unecessary data to be stored on the front panel. This shortcut makes it easier to empty arrays, saving lots of tedious clicking and context menu searching.
+ 
+Select the arrays you want to clear
+Open quick-drop (ctrl-space)
+Ctrl-C (by default)
+ 
+Alternatively, you can hold down shift, and all front panel arrays will be cleared. There is also the option to select array constants on the block diagram for clearing (but no clear all on the block diagram.... that's dangerous)
+ 
+The shortuct is saved in LabVIEW 2011.
