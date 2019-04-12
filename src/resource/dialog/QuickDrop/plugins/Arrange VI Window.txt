@@ -1,0 +1,13 @@
+https://forums.ni.com/t5/Quick-Drop-Enthusiasts/Quick-Drop-Keyboard-Shortcut-Arrange-VI-Window/gpm-p/3867352?profile.language=zh-CN
+
+Author:Kosta
+
+When used on the front panel:
+-Arranges controls and indicators to be consistent with the connector pane arrangement. 
+-Resizes and moves the front panel to a consistent top left location on the primary monitor.
+
+When used on the block diagram:
+-Scrolls the block diagram to a reasonable location relative to the top-most and/or left-most diagram object.
+-Resizes and moves the block diagram to a consistent top left location on the primary monitor.
+
+Default Shortcut - [F]

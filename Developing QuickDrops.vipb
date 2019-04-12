@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2019-02-21 11:18:16" Modified_Date="2019-04-11 17:32:21" Creator="ni" Comments="" ID="cedf95013f99903c613e98a4d7c77c1e">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2019-02-21 11:18:16" Modified_Date="2019-04-12 15:19:26" Creator="ni" Comments="" ID="0df1b33e80627997526ac931592a30e3">
   <Library_General_Settings>
     <Package_File_Name>NEVSTOP_lib_Developing_QuickDrops</Package_File_Name>
-    <Library_Version>0.1.0.3</Library_Version>
+    <Library_Version>0.2.0.11</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>vip</Library_Output_Folder>
@@ -28,11 +28,128 @@
     <VI_Package_Configuration_File>Developing QuickDrops.vipc</VI_Package_Configuration_File>
     <Description>
       <One_Line_Description_Summary/>
-      <Description/>
+      <Description>## Key-QD Mapping
+
+`A` --&gt; `Clone Controls`    
+`B` --&gt; _Reserved_  
+`C` --&gt; `Clear Array`  
+`D` --&gt; `Wire All Terminals`(LabVIEW Built In)      
+`E` --&gt; _Reserved_  
+`F` --&gt; `Arrange VI Window`  
+`G` --&gt; _Reserved_  
+`H` --&gt; _Reserved_  
+`I` --&gt; `Insert` (LabVIEW Built In)     
+`J` --&gt; _Reserved_  
+`K` --&gt; _Reserved_  
+`L` --&gt; _Reserved_  
+`M` --&gt; _Reserved_  
+`N` --&gt; _Reserved_  
+`O` --&gt; _Reserved_  
+`P` --&gt; `Replace`(LabVIEW Built In)     
+`Q` --&gt; _Reserved_  
+`R` --&gt; `Remove And Rewire`(LabVIEW Built In)       
+`S` --&gt; _Reserved_  
+`T` --&gt; `Move Labels` (LabVIEW Built In)        
+`U` --&gt; _Reserved_  
+`V` --&gt; _Reserved_  
+`W` --&gt; `Wire Multiple Objects Together`(LabVIEW Built In)      
+`X` --&gt; _Reserved_  
+`Y` --&gt; _Reserved_  
+`Z` --&gt; _Reserved_  
+
+## QuickDrops
+
+### Arrange VI Window
+
+**link**:[Quick Drop Keyboard Shortcut – Arrange VI Window](https://forums.ni.com/t5/Quick-Drop-Enthusiasts/Quick-Drop-Keyboard-Shortcut-Arrange-VI-Window/gpm-p/3867352?profile.language=zh-CN)    
+**Author**:Kosta
+
+When used on the front panel:
+-Arranges controls and indicators to be consistent with the connector pane arrangement. 
+-Resizes and moves the front panel to a consistent top left location on the primary monitor.
+
+When used on the block diagram:
+-Scrolls the block diagram to a reasonable location relative to the top-most and/or left-most diagram object.
+-Resizes and moves the block diagram to a consistent top left location on the primary monitor.
+
+```
+Default Shortcut - [F]
+```
+
+### Clone Controls
+
+This Quick Drop Keyboard Shortcut will clone the selected Control(s) or Indicator(s) on the Front Panel but changes Controls to Indicators and vice versa.  In addition, if found on the Connector Pane, it will attempt to place the newly created control on the opposite (left / right) side of the Connector Pane.
+
+It was developed to automate the task where, for example,  you have a File Ref (in) control, and you want to wire it through the other side of the ConPane.
+
+Note: This script only supports the following patterns: 4x2x2x4, 5x3x3x5, 6x4x4x6, and 8x6x6x8
+
+```
+Default Shortcut - [A]
+```
+
+### Clear Array
+
+Clears the selected array(s) and sets the default value to empty. If shift is also pressed while viewing the front panel, it will affect all front panel arrays, regardless of selection. 
+
+```
+Default Shortcut - [C]
+```
+
+### While Loop Subdiagram Label
+
+Takes the text in the Quick Drop box and applies it as a subdiagram label to a While Loop, and formats the subdiagram label to have white, bold text, with the while loop's gray background color.
+
+```
+Default Shortcut - NaN
+```</Description>
       <Copyright/>
       <Packager>NEVSTOP</Packager>
       <URL/>
-      <Release_Notes/>
+      <Release_Notes>### Arrange VI Window
+
+**link**:[Quick Drop Keyboard Shortcut – Arrange VI Window](https://forums.ni.com/t5/Quick-Drop-Enthusiasts/Quick-Drop-Keyboard-Shortcut-Arrange-VI-Window/gpm-p/3867352?profile.language=zh-CN)    
+**Author**:Kosta
+
+When used on the front panel:
+-Arranges controls and indicators to be consistent with the connector pane arrangement. 
+-Resizes and moves the front panel to a consistent top left location on the primary monitor.
+
+When used on the block diagram:
+-Scrolls the block diagram to a reasonable location relative to the top-most and/or left-most diagram object.
+-Resizes and moves the block diagram to a consistent top left location on the primary monitor.
+
+```
+Default Shortcut - [F]
+```
+
+### Clone Controls
+
+This Quick Drop Keyboard Shortcut will clone the selected Control(s) or Indicator(s) on the Front Panel but changes Controls to Indicators and vice versa.  In addition, if found on the Connector Pane, it will attempt to place the newly created control on the opposite (left / right) side of the Connector Pane.
+
+It was developed to automate the task where, for example,  you have a File Ref (in) control, and you want to wire it through the other side of the ConPane.
+
+Note: This script only supports the following patterns: 4x2x2x4, 5x3x3x5, 6x4x4x6, and 8x6x6x8
+
+```
+Default Shortcut - [A]
+```
+
+### Clear Array
+
+Clears the selected array(s) and sets the default value to empty. If shift is also pressed while viewing the front panel, it will affect all front panel arrays, regardless of selection. 
+
+```
+Default Shortcut - [C]
+```
+
+### While Loop Subdiagram Label
+
+Takes the text in the Quick Drop box and applies it as a subdiagram label to a While Loop, and formats the subdiagram label to have white, bold text, with the while loop's gray background color.
+
+```
+Default Shortcut - NaN
+```</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -120,14 +237,43 @@
       </Password_Overrides>
       <Namespace_Overrides>
         <Path>.</Path>
-        <Namespace_Type>Prefix</Namespace_Type>
+        <Namespace_Type>Suffix</Namespace_Type>
         <Namespace/>
+      </Namespace_Overrides>
+      <Namespace_Overrides>
+        <Path>src/resource/dialog/QuickDrop/plugins/Arrange VI Window.lvlib</Path>
+        <Namespace_Type>Suffix</Namespace_Type>
+        <Namespace>_nevstop</Namespace>
+      </Namespace_Overrides>
+      <Namespace_Overrides>
+        <Path>src/resource/dialog/QuickDrop/plugins/Clear Array.lvlib</Path>
+        <Namespace_Type>Suffix</Namespace_Type>
+        <Namespace>_nevstop</Namespace>
+      </Namespace_Overrides>
+      <Namespace_Overrides>
+        <Path>src/resource/dialog/QuickDrop/plugins/Clone Control.lvlib</Path>
+        <Namespace_Type>Suffix</Namespace_Type>
+        <Namespace>_nevstop</Namespace>
+      </Namespace_Overrides>
+      <Namespace_Overrides>
+        <Path>src/resource/dialog/QuickDrop/plugins/While Loop Subdiagram Label.lvlib</Path>
+        <Namespace_Type>Suffix</Namespace_Type>
+        <Namespace>_nevstop</Namespace>
       </Namespace_Overrides>
       <Exclusions>
         <Path>DEV ENVIRONMENT LabVIEW 2014</Path>
       </Exclusions>
       <Exclusions>
         <Path>README.md</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>.gitignore</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Developing QuickDrops.lvproj</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>vip</Path>
       </Exclusions>
     </Source_Files>
     <License_Agreement_Filepath/>
@@ -187,7 +333,7 @@
       <skip_mass_compile_after_install>false</skip_mass_compile_after_install>
     </LabVIEW>
     <VI_Docs>
-      <Edit_VI_Description>true</Edit_VI_Description>
+      <Edit_VI_Description>false</Edit_VI_Description>
       <Text_to_Add>{product_name} {version_number}
 {author_name} - {company_name}
 {copyright}</Text_to_Add>
