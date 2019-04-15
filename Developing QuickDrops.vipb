@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2019-02-21 11:18:16" Modified_Date="2019-04-12 15:19:26" Creator="ni" Comments="" ID="0df1b33e80627997526ac931592a30e3">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2019-02-21 11:18:16" Modified_Date="2019-04-15 11:46:26" Creator="ni" Comments="" ID="56f8d2672e3306d9d3d63ac0af3f23fe">
   <Library_General_Settings>
     <Package_File_Name>NEVSTOP_lib_Developing_QuickDrops</Package_File_Name>
-    <Library_Version>0.2.0.11</Library_Version>
+    <Library_Version>0.3.0.13</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>vip</Library_Output_Folder>
@@ -106,50 +106,7 @@ Default Shortcut - NaN
       <Copyright/>
       <Packager>NEVSTOP</Packager>
       <URL/>
-      <Release_Notes>### Arrange VI Window
-
-**link**:[Quick Drop Keyboard Shortcut – Arrange VI Window](https://forums.ni.com/t5/Quick-Drop-Enthusiasts/Quick-Drop-Keyboard-Shortcut-Arrange-VI-Window/gpm-p/3867352?profile.language=zh-CN)    
-**Author**:Kosta
-
-When used on the front panel:
--Arranges controls and indicators to be consistent with the connector pane arrangement. 
--Resizes and moves the front panel to a consistent top left location on the primary monitor.
-
-When used on the block diagram:
--Scrolls the block diagram to a reasonable location relative to the top-most and/or left-most diagram object.
--Resizes and moves the block diagram to a consistent top left location on the primary monitor.
-
-```
-Default Shortcut - [F]
-```
-
-### Clone Controls
-
-This Quick Drop Keyboard Shortcut will clone the selected Control(s) or Indicator(s) on the Front Panel but changes Controls to Indicators and vice versa.  In addition, if found on the Connector Pane, it will attempt to place the newly created control on the opposite (left / right) side of the Connector Pane.
-
-It was developed to automate the task where, for example,  you have a File Ref (in) control, and you want to wire it through the other side of the ConPane.
-
-Note: This script only supports the following patterns: 4x2x2x4, 5x3x3x5, 6x4x4x6, and 8x6x6x8
-
-```
-Default Shortcut - [A]
-```
-
-### Clear Array
-
-Clears the selected array(s) and sets the default value to empty. If shift is also pressed while viewing the front panel, it will affect all front panel arrays, regardless of selection. 
-
-```
-Default Shortcut - [C]
-```
-
-### While Loop Subdiagram Label
-
-Takes the text in the Quick Drop box and applies it as a subdiagram label to a While Loop, and formats the subdiagram label to have white, bold text, with the while loop's gray background color.
-
-```
-Default Shortcut - NaN
-```</Release_Notes>
+      <Release_Notes>Update File Orgnization</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -241,24 +198,29 @@ Default Shortcut - NaN
         <Namespace/>
       </Namespace_Overrides>
       <Namespace_Overrides>
-        <Path>src/resource/dialog/QuickDrop/plugins/Arrange VI Window.lvlib</Path>
+        <Path>src/resource/dialog/QuickDrop/plugins/QD_Arrange VI Window</Path>
         <Namespace_Type>Suffix</Namespace_Type>
-        <Namespace>_nevstop</Namespace>
+        <Namespace/>
       </Namespace_Overrides>
       <Namespace_Overrides>
-        <Path>src/resource/dialog/QuickDrop/plugins/Clear Array.lvlib</Path>
+        <Path>src/resource/dialog/QuickDrop/plugins/QD_Clear Array/Clear Array.lvlib</Path>
         <Namespace_Type>Suffix</Namespace_Type>
-        <Namespace>_nevstop</Namespace>
+        <Namespace>_NEVSTOP</Namespace>
       </Namespace_Overrides>
       <Namespace_Overrides>
-        <Path>src/resource/dialog/QuickDrop/plugins/Clone Control.lvlib</Path>
+        <Path>src/resource/dialog/QuickDrop/plugins/QD_Clone Control/Clone Control.lvlib</Path>
         <Namespace_Type>Suffix</Namespace_Type>
-        <Namespace>_nevstop</Namespace>
+        <Namespace>_NEVSTOP</Namespace>
       </Namespace_Overrides>
       <Namespace_Overrides>
-        <Path>src/resource/dialog/QuickDrop/plugins/While Loop Subdiagram Label.lvlib</Path>
+        <Path>src/resource/dialog/QuickDrop/plugins/QD_While Loop Subdiagram Label/While Loop Subdiagram Label.lvlib</Path>
         <Namespace_Type>Suffix</Namespace_Type>
-        <Namespace>_nevstop</Namespace>
+        <Namespace>_NEVSTOP</Namespace>
+      </Namespace_Overrides>
+      <Namespace_Overrides>
+        <Path>src/resource/dialog/QuickDrop/plugins/QD_Arrange VI Window/Arrange VI Window.lvlib</Path>
+        <Namespace_Type>Suffix</Namespace_Type>
+        <Namespace>_NEVSTOP</Namespace>
       </Namespace_Overrides>
       <Exclusions>
         <Path>DEV ENVIRONMENT LabVIEW 2014</Path>
@@ -274,6 +236,9 @@ Default Shortcut - NaN
       </Exclusions>
       <Exclusions>
         <Path>vip</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>_Ignore</Path>
       </Exclusions>
     </Source_Files>
     <License_Agreement_Filepath/>
