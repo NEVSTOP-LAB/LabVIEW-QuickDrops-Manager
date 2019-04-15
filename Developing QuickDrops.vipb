@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2019-02-21 11:18:16" Modified_Date="2019-04-15 11:46:26" Creator="ni" Comments="" ID="56f8d2672e3306d9d3d63ac0af3f23fe">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2019-02-21 11:18:16" Modified_Date="2019-04-15 12:55:02" Creator="ni" Comments="" ID="58e868144c983446c494f5746b76faa2">
   <Library_General_Settings>
     <Package_File_Name>NEVSTOP_lib_Developing_QuickDrops</Package_File_Name>
-    <Library_Version>0.3.0.13</Library_Version>
+    <Library_Version>0.3.1.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>vip</Library_Output_Folder>
@@ -41,7 +41,7 @@
 `I` --&gt; `Insert` (LabVIEW Built In)     
 `J` --&gt; _Reserved_  
 `K` --&gt; _Reserved_  
-`L` --&gt; _Reserved_  
+`L` --&gt; `Create FGV`
 `M` --&gt; _Reserved_  
 `N` --&gt; _Reserved_  
 `O` --&gt; _Reserved_  
@@ -102,11 +102,34 @@ Takes the text in the Quick Drop box and applies it as a subdiagram label to a W
 
 ```
 Default Shortcut - NaN
+```
+
+### Create FGV
+
+**link**:[Quick Drop Keyboard Shortcut - Create FGV (and RT FGV)](https://forums.ni.com/t5/Quick-Drop-Enthusiasts/Quick-Drop-Keyboard-Shortcut-Create-FGV-and-RT-FGV/gpm-p/3497469?profile.language=zh-CN)    
+**Author**:Florent_A
+
+PLUGIN_DESCRIPTION: 
+Create a FGV base on wire, control, indicator or constante datatype you select.
+2 FGV Templates are available: a classic FGV and a RT FGV what is made to be skipable (please see Template FGV folder)
+
+```
+Default Shortcut - [L]
+Default Shortcut - [Shift][L]
 ```</Description>
       <Copyright/>
       <Packager>NEVSTOP</Packager>
       <URL/>
-      <Release_Notes>Update File Orgnization</Release_Notes>
+      <Release_Notes>### Create FGV
+
+**link**:[Quick Drop Keyboard Shortcut - Create FGV (and RT FGV)](https://forums.ni.com/t5/Quick-Drop-Enthusiasts/Quick-Drop-Keyboard-Shortcut-Create-FGV-and-RT-FGV/gpm-p/3497469?profile.language=zh-CN)    
+**Author**:Florent_A
+
+PLUGIN_DESCRIPTION: 
+Create a FGV base on wire, control, indicator or constante datatype you select.
+2 FGV Templates are available: a classic FGV and a RT FGV what is made to be skipable (please see Template FGV folder)
+
+Default Shortcut - [L]</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -219,6 +242,11 @@ Default Shortcut - NaN
       </Namespace_Overrides>
       <Namespace_Overrides>
         <Path>src/resource/dialog/QuickDrop/plugins/QD_Arrange VI Window/Arrange VI Window.lvlib</Path>
+        <Namespace_Type>Suffix</Namespace_Type>
+        <Namespace>_NEVSTOP</Namespace>
+      </Namespace_Overrides>
+      <Namespace_Overrides>
+        <Path>src/resource/dialog/QuickDrop/plugins/QD_Create FGV/Create FGV.lvlib</Path>
         <Namespace_Type>Suffix</Namespace_Type>
         <Namespace>_NEVSTOP</Namespace>
       </Namespace_Overrides>

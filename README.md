@@ -15,7 +15,7 @@ Quick Drop 是 LabVIEW 开发的辅助工具，可以大大的提高开发效率
 `I` --> `Insert` (LabVIEW Built In)     
 `J` --> _Reserved_  
 `K` --> _Reserved_  
-`L` --> _Reserved_  
+`L` --> `Create FGV`  
 `M` --> _Reserved_  
 `N` --> _Reserved_  
 `O` --> _Reserved_  
@@ -131,4 +131,18 @@ Takes the text in the Quick Drop box and applies it as a subdiagram label to a W
 
 ```
 Default Shortcut - NaN
+```
+
+### Create FGV
+
+**link**:[Quick Drop Keyboard Shortcut - Create FGV (and RT FGV)](https://forums.ni.com/t5/Quick-Drop-Enthusiasts/Quick-Drop-Keyboard-Shortcut-Create-FGV-and-RT-FGV/gpm-p/3497469?profile.language=zh-CN)    
+**Author**:Florent_A
+
+PLUGIN_DESCRIPTION: 
+Create a FGV base on wire, control, indicator or constante datatype you select.
+2 FGV Templates are available: a classic FGV and a RT FGV what is made to be skipable (please see Template FGV folder)
+
+```
+Default Shortcut - [L]
+Default Shortcut - [Shift][L]
 ```

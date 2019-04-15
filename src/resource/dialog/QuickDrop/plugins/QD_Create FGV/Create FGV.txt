@@ -1,0 +1,10 @@
+### Create FGV
+
+**link**:[Quick Drop Keyboard Shortcut - Create FGV (and RT FGV)](https://forums.ni.com/t5/Quick-Drop-Enthusiasts/Quick-Drop-Keyboard-Shortcut-Create-FGV-and-RT-FGV/gpm-p/3497469?profile.language=zh-CN)    
+**Author**:Florent_A
+
+PLUGIN_DESCRIPTION: 
+Create a FGV base on wire, control, indicator or constante datatype you select.
+2 FGV Templates are available: a classic FGV and a RT FGV what is made to be skipable (please see Template FGV folder)
+
+Default Shortcut - [L]
