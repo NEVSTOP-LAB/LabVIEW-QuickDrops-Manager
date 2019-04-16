@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2019-02-21 11:18:16" Modified_Date="2019-04-15 12:55:02" Creator="ni" Comments="" ID="58e868144c983446c494f5746b76faa2">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2019-02-21 11:18:16" Modified_Date="2019-04-16 12:23:40" Creator="ni" Comments="" ID="6524e198855415aa337c841cd2cba2a0">
   <Library_General_Settings>
     <Package_File_Name>NEVSTOP_lib_Developing_QuickDrops</Package_File_Name>
-    <Library_Version>0.3.1.2</Library_Version>
+    <Library_Version>0.4.0.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>vip</Library_Output_Folder>
@@ -120,16 +120,7 @@ Default Shortcut - [Shift][L]
       <Copyright/>
       <Packager>NEVSTOP</Packager>
       <URL/>
-      <Release_Notes>### Create FGV
-
-**link**:[Quick Drop Keyboard Shortcut - Create FGV (and RT FGV)](https://forums.ni.com/t5/Quick-Drop-Enthusiasts/Quick-Drop-Keyboard-Shortcut-Create-FGV-and-RT-FGV/gpm-p/3497469?profile.language=zh-CN)    
-**Author**:Florent_A
-
-PLUGIN_DESCRIPTION: 
-Create a FGV base on wire, control, indicator or constante datatype you select.
-2 FGV Templates are available: a classic FGV and a RT FGV what is made to be skipable (please see Template FGV folder)
-
-Default Shortcut - [L]</Release_Notes>
+      <Release_Notes>Add Tools/NEVSTOP/QuickDrop Menu. </Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -206,6 +197,18 @@ Default Shortcut - [L]</Release_Notes>
       </Destination_Overrides>
       <Destination_Overrides>
         <Path>src/resource</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>src/user.lib</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>src/project</Path>
         <Destination>0</Destination>
         <Additional_Destination>false</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
