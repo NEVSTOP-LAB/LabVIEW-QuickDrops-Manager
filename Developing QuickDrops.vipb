@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2019-02-21 11:18:16" Modified_Date="2019-04-16 12:23:40" Creator="ni" Comments="" ID="6524e198855415aa337c841cd2cba2a0">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2019-02-21 11:18:16" Modified_Date="2019-04-16 12:34:12" Creator="ni" Comments="" ID="ec2270d7bb442d9cc2429a49a01cc164">
   <Library_General_Settings>
     <Package_File_Name>NEVSTOP_lib_Developing_QuickDrops</Package_File_Name>
     <Library_Version>0.4.0.2</Library_Version>
@@ -270,6 +270,9 @@ Default Shortcut - [Shift][L]
       </Exclusions>
       <Exclusions>
         <Path>_Ignore</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>src/resource/dialog/QuickDrop/QuickDrop Plugin Template.vit</Path>
       </Exclusions>
     </Source_Files>
     <License_Agreement_Filepath/>
