@@ -1,8 +1,10 @@
 # LabVIEW-Developing-QuickDrops
 
-Quick Drop 是 LabVIEW 开发的辅助工具，可以大大的提高开发效率。
+"NI LabVIEW palettes contain hundreds of useful VIs and functions, but, when you know the exact VI you need, navigating through the palette can take too much time. Quick Drop lets you rapidly find and place LabVIEW front panel and block diagram objects without navigating the palettes or initiating a search."
 
-## Key-QD Mapping
+-- [Boost Productivity with Quick Drop](http://www.ni.com/tutorial/7423/en/)
+
+## Default Key-QD Mapping
 
 `A` --> `Clone Controls`    
 `B` --> _Reserved_  
@@ -31,7 +33,17 @@ Quick Drop 是 LabVIEW 开发的辅助工具，可以大大的提高开发效率
 `Y` --> _Reserved_  
 `Z` --> _Reserved_  
 
-## LabVIEW 自带的 QuickDrops
+## Tools/NEVSTOP/QuickDrop Menu
+
+ - `Update QuickDrop ShortCuts Hints`   
+    Update the Hints in Block Diagram Quick Drop Window after you change the Key-QD Mapping
+ - `Export QD ShortCuts`    
+    Export customized shortcuts settings to ini file.
+ - `Import QD ShortCuts`    
+    Import customized shortcuts settings from an ini file.
+
+
+## LabVIEW Built-in QuickDrops
 
 ### Insert
 
@@ -86,7 +98,7 @@ Default Shortcut - [T]
 Default Shortcut - [Shift][T]
 ```
 
-## 补充的QuickDrops
+## Additional QuickDrops
 
 ### Arrange VI Window
 
