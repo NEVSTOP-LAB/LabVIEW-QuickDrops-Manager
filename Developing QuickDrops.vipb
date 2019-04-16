@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2019-02-21 11:18:16" Modified_Date="2019-04-16 12:34:12" Creator="ni" Comments="" ID="ec2270d7bb442d9cc2429a49a01cc164">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2019-02-21 11:18:16" Modified_Date="2019-04-16 13:50:44" Creator="ni" Comments="" ID="288b267c44ac277a425cc2de1d469a76">
   <Library_General_Settings>
     <Package_File_Name>NEVSTOP_lib_Developing_QuickDrops</Package_File_Name>
     <Library_Version>0.4.0.2</Library_Version>
@@ -16,7 +16,10 @@
     <Target>LabVIEW</Target>
   </Library_General_Settings>
   <Advanced_Settings>
-    <Package_Dependencies/>
+    <Package_Dependencies>
+      <Additional_External_Dependencies>oglib_array &gt;=4.1.1.14</Additional_External_Dependencies>
+      <Additional_External_Dependencies>oglib_string &gt;=4.1.0.12</Additional_External_Dependencies>
+    </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI/>
       <Post-Build_VI/>
@@ -120,7 +123,10 @@ Default Shortcut - [Shift][L]
       <Copyright/>
       <Packager>NEVSTOP</Packager>
       <URL/>
-      <Release_Notes>Add Tools/NEVSTOP/QuickDrop Menu. </Release_Notes>
+      <Release_Notes>Add Tools/NEVSTOP/QuickDrop Menu. 
+1. Export QD ShortCut
+2. Import QD ShortCut
+3. Update QuickDrop ShortCuts Hints</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
