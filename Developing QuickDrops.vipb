@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2019-02-21 11:18:16" Modified_Date="2019-04-16 16:09:01" Creator="ni" Comments="" ID="81e9bb13f25700c93a497fc73cda072d">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2019-02-21 11:18:16" Modified_Date="2019-04-16 17:20:43" Creator="ni" Comments="" ID="d31aada5df914a67ca476ddabdc6332a">
   <Library_General_Settings>
     <Package_File_Name>NEVSTOP_lib_Developing_QuickDrops</Package_File_Name>
-    <Library_Version>0.4.0.2</Library_Version>
+    <Library_Version>0.4.0.4</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>vip</Library_Output_Folder>
@@ -17,7 +17,9 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
+      <Additional_External_Dependencies>oglib_appcontrol &gt;=4.1.0.7</Additional_External_Dependencies>
       <Additional_External_Dependencies>oglib_array &gt;=4.1.1.14</Additional_External_Dependencies>
+      <Additional_External_Dependencies>oglib_file &gt;=4.0.1.22</Additional_External_Dependencies>
       <Additional_External_Dependencies>oglib_string &gt;=4.1.0.12</Additional_External_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
@@ -245,7 +247,7 @@ Default Shortcut - [Shift][L]
       <Help_Menu>
         <LLB>false</LLB>
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
-        <Path/>
+        <Path>&lt;help&gt;\NEVSTOP\QuickDrop</Path>
       </Help_Menu>
       <Project_Templates>
         <LLB>false</LLB>
@@ -294,6 +296,12 @@ Default Shortcut - [Shift][L]
         <Additional_Destination>false</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>README.md</Path>
+        <Destination>8</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
       <Password_Overrides>
         <Path>.</Path>
         <Password/>
@@ -336,9 +344,6 @@ Default Shortcut - [Shift][L]
       </Namespace_Overrides>
       <Exclusions>
         <Path>DEV ENVIRONMENT LabVIEW 2014</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>README.md</Path>
       </Exclusions>
       <Exclusions>
         <Path>.gitignore</Path>
