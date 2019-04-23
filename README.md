@@ -14,10 +14,10 @@
 `F` --> `Arrange VI Window`  
 `G` --> _Reserved_  
 `H` --> _Reserved_  
-`I` --> `Insert` (LabVIEW Built In)     
+`I` --> [Shift] `Insert` (LabVIEW Built In)     
 `J` --> _Reserved_  
 `K` --> _Reserved_  
-`L` --> `Create FGV`  
+`L` --> [Shift] `Create FGV`  
 `M` --> _Reserved_  
 `N` --> _Reserved_  
 `O` --> _Reserved_  
@@ -25,10 +25,10 @@
 `Q` --> _Reserved_  
 `R` --> `Remove And Rewire`(LabVIEW Built In)       
 `S` --> _Reserved_  
-`T` --> `Move Labels` (LabVIEW Built In)        
+`T` --> [Shift] `Move Labels` (LabVIEW Built In)        
 `U` --> _Reserved_  
 `V` --> _Reserved_  
-`W` --> `Wire Multiple Objects Together`(LabVIEW Built In)      
+`W` --> [Shift] `Wire Multiple Objects Together`(LabVIEW Built In)      
 `X` --> _Reserved_  
 `Y` --> _Reserved_  
 `Z` --> _Reserved_  
