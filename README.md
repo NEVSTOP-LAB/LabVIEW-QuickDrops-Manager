@@ -6,41 +6,59 @@
 
 ## Default Key-QD Mapping
 
-`A` --> `Clone Controls`    
-`B` --> _Reserved_  
-`C` --> `Clear Array`  
-`D` --> `Wire All Terminals`(LabVIEW Built In)      
-`E` --> _Reserved_  
-`F` --> `Arrange VI Window`  
-`G` --> _Reserved_  
-`H` --> _Reserved_  
-`I` --> [Shift] `Insert` (LabVIEW Built In)     
-`J` --> _Reserved_  
-`K` --> _Reserved_  
-`L` --> [Shift] `Create FGV`  
-`M` --> _Reserved_  
-`N` --> _Reserved_  
-`O` --> _Reserved_  
-`P` --> `Replace`(LabVIEW Built In)     
-`Q` --> _Reserved_  
-`R` --> `Remove And Rewire`(LabVIEW Built In)       
-`S` --> _Reserved_  
-`T` --> [Shift] `Move Labels` (LabVIEW Built In)        
-`U` --> _Reserved_  
-`V` --> _Reserved_  
-`W` --> [Shift] `Wire Multiple Objects Together`(LabVIEW Built In)      
-`X` --> _Reserved_  
-`Y` --> _Reserved_  
-`Z` --> _Reserved_  
+A --> `[Ctrl]` Clone Controls    
+B --> _Reserved_  
+C --> `[Ctrl]` Clear Array  
+D --> `[LabVIEW Build-in]` `[Ctrl]` Wire All Terminals      
+E --> _Reserved_  
+F --> `[Ctrl]` Arrange VI Window  
+G --> _Reserved_  
+H --> _Reserved_  
+I --> `[LabVIEW Build-in]` `[Ctrl]` `[Shift]` Insert      
+J --> _Reserved_  
+K --> _Reserved_  
+L --> `[Ctrl]` `[Shift]` Create FGV  
+M --> _Reserved_  
+N --> _Reserved_  
+O --> _Reserved_  
+P --> `[LabVIEW Build-in]` `[Ctrl]` Replace     
+Q --> _Reserved_  
+R --> `[LabVIEW Build-in]` `[Ctrl]` Remove And Rewire       
+S --> _Reserved_  
+T --> `[LabVIEW Build-in]` `[Ctrl]` `[Shift]` Move Labels         
+U --> _Reserved_  
+V --> _Reserved_  
+W --> `[LabVIEW Build-in]` `[Ctrl]` `[Shift]` Wire Multiple Objects Together      
+X --> _Reserved_  
+Y --> _Reserved_  
+Z --> _Reserved_  
 
 ## Tools/NEVSTOP/QuickDrop Menu
 
- - `Update QuickDrop ShortCuts Hints`   
-    Update the Hints in Block Diagram Quick Drop Window after you change the Key-QD Mapping
- - `Export QD ShortCuts`    
-    Export customized shortcuts settings to ini file.
- - `Import QD ShortCuts`    
-    Import customized shortcuts settings from an ini file.
+```
+Import QD Shortcuts.vi
+Export QD Shortcuts.vi
+-
+Open LabVIEW Folder.vi
+Open Customized Ini Tokens Folder.vi
+Merge Tokens of Ini Files.vi
+-
+Update QuickDrop ShortCuts Hints.vi
+```
+- `Export QD ShortCuts`    
+   Export customized shortcuts settings to ini file.
+- `Import QD ShortCuts`    
+   Import customized shortcuts settings from an ini file.
+
+- `Open LabVIEW Folder.vi`   
+   Open LabVIEW Folder to view the LabVIEW.ini and LabVIEW.ini.bk.txt files.
+- `Open Customized Ini Tokens Folder.vi` 
+   Open the folder of customized ini files.
+- `Merge Tokens of Ini Files.vi`   
+   Merge the selected ini tokens to LabVIEW.ini file.
+   
+- `Update QuickDrop ShortCuts Hints`   
+   Update the Hints in Block Diagram Quick Drop Window after you change the Key-QD Mapping
 
 
 ## LabVIEW Built-in QuickDrops
