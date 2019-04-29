@@ -12,7 +12,7 @@ C --> `[Ctrl]` Clear Array
 D --> `[LabVIEW Build-in]` `[Ctrl]` Wire All Terminals      
 E --> _Reserved_  
 F --> `[Ctrl]` Arrange VI Window  
-G --> _Reserved_  
+G --> `[Ctrl]` `[Shift]` Create a Place VI Contents    
 H --> _Reserved_  
 I --> `[LabVIEW Build-in]` `[Ctrl]` `[Shift]` Insert      
 J --> _Reserved_  
@@ -175,4 +175,29 @@ Create a FGV base on wire, control, indicator or constante datatype you select.
 ```
 Default Shortcut - [L]
 Default Shortcut - [Shift][L]
+```
+
+### Create a Place VI Contents
+
+**link**: [Create a Place VI Contents](https://decibel.ni.com/content/docs/DOC-12725)
+**Author**:Jarrod S
+
+
+(Note: The following shortcut was originally posted by Jarrod S. on the NI Forums here.  I decided to give his shortcut a more permanent home in the Quick Drop Enthusiasts group.)
+ 
+This Quick Drop Keyboard Shortcut allows you to create a Place VI Contents VI (formerly called a "Merge VI") of your diagram selection and automatically create a user.lib palette entry for it, so that you can easily drop that selection of code in the future.  Follow these steps to use this shortcut:
+ 
+Save the attached VI in your <LabVIEW>\resource\dialog\QuickDrop\plugins folder.  No LabVIEW restart is required.
+Select something on your diagram that you wish to make into a Place VI Contents VI.
+Press Ctrl-Space-Ctrl-Shift-G.
+Specify a name for this Place VI Contents VI.
+Create an icon
+ 
+Now you have a Place VI Contents VI that contains this diagram selection that you can use from your palettes (or Quick Drop).  Note that in step (3) above, if you had pressed Ctrl-Space-Ctrl-G instead, the palettes would not be refreshed automatically, and you would have to restart LabVIEW in order to use the new Place VI Contents VI.
+ 
+Note:  All Place VI Contents VIs that are created with this shortcut are stored in <LabVIEW Data>\QuickDrop Templates.  The actual .mnu files that provide the palette entries are stored in <LabVIEW>\user.lib\QuickDrop Templates Palette.mnu.
+
+```
+Default Shortcut - [G]
+Default Shortcut - [Shift][G]
 ```
