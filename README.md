@@ -24,7 +24,7 @@ O --> _Reserved_
 P --> `[LabVIEW Build-in]` `[Ctrl]` Replace     
 Q --> _Reserved_  
 R --> `[LabVIEW Build-in]` `[Ctrl]` Remove And Rewire       
-S --> _Reserved_  
+S --> `[Ctrl]` State Machine from Enum  
 T --> `[LabVIEW Build-in]` `[Ctrl]` `[Shift]` Move Labels         
 U --> _Reserved_  
 V --> _Reserved_  
@@ -200,4 +200,26 @@ Note:  All Place VI Contents VIs that are created with this shortcut are stored 
 ```
 Default Shortcut - [G]
 Default Shortcut - [Shift][G]
+```
+
+### State Machine from Enum
+
+**link**: [QDKS - State Machine from Enum](https://forums.ni.com/t5/Quick-Drop-Enthusiasts/QDKS-State-Machine-from-Enum/gpm-p/3524404?profile.language=zh-CN)
+**Author**:Eric M.
+
+I am kind of emo to post my first QD here. I figured this one would be of use for quite a bunch of developers.
+
+Goal :
+Pretty much everyone uses state machines as this is a rather basic but efficient design pattern that can be mixed together with others DPs. Whichever the platform (RT, FPGA, Win), an application will most likely include a state machine (or more!).
+
+First thing : create the enum that will describe the states of the machine. Yeah well, with this QDKS, that's roughly the only thing you will need to do.
+
+How-To :
+- Copy the attached QD VI to the usual directory.
+- Configure its key (S is fine !)
+- Select an enum terminal or constant in your BD. Make sure there is some free space at the right of the enum.
+- Ctrl+Space Ctrl+Key. You've earned a state machine corresponding to the enum items.
+
+```
+Default Shortcut - [S]
 ```
