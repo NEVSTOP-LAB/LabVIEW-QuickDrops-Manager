@@ -6,32 +6,32 @@
 
 ## Default Key-QD Mapping
 
-A --> `[Ctrl]` Clone Controls    
-B --> _Reserved_  
-C --> `[Ctrl]` Clear Array  
-D --> `[LabVIEW Build-in]` `[Ctrl]` Wire All Terminals      
-E --> _Reserved_  
-F --> `[Ctrl]` Arrange VI Window  
-G --> `[Ctrl]` `[Shift]` Create a Place VI Contents    
-H --> _Reserved_  
-I --> `[LabVIEW Build-in]` `[Ctrl]` `[Shift]` Insert      
-J --> _Reserved_  
-K --> _Reserved_  
-L --> `[Ctrl]` `[Shift]` Create FGV  
-M --> _Reserved_  
-N --> _Reserved_  
-O --> _Reserved_  
-P --> `[LabVIEW Build-in]` `[Ctrl]` Replace     
-Q --> _Reserved_  
-R --> `[LabVIEW Build-in]` `[Ctrl]` Remove And Rewire       
-S --> `[Ctrl]` State Machine from Enum  
-T --> `[LabVIEW Build-in]` `[Ctrl]` `[Shift]` Move Labels         
-U --> _Reserved_  
-V --> _Reserved_  
-W --> `[LabVIEW Build-in]` `[Ctrl]` `[Shift]` Wire Multiple Objects Together      
-X --> _Reserved_  
-Y --> _Reserved_  
-Z --> _Reserved_  
+`A` --> `[Ctrl]` Clone Controls    
+`B` --> _Reserved_  
+`C` --> `[Ctrl]` Clear Array  
+`D` --> `[LabVIEW Build-in]` `[Ctrl]` Wire All Terminals      
+`E` --> _Reserved_  
+`F` --> `[Ctrl]` Arrange VI Window  
+`G` --> `[Ctrl]` `[Shift]` Create a Place VI Contents    
+`H` --> _Reserved_  
+`I` --> `[LabVIEW Build-in]` `[Ctrl]` `[Shift]` Insert      
+`J` --> _Reserved_  
+`K` --> _Reserved_  
+`L` --> `[Ctrl]` `[Shift]` Create FGV  
+`M` --> _Reserved_  
+`N` --> _Reserved_  
+`O` --> _Reserved_  
+`P` --> `[LabVIEW Build-in]` `[Ctrl]` Replace     
+`Q` --> _Reserved_  
+`R` --> `[LabVIEW Build-in]` `[Ctrl]` Remove And Rewire       
+`S` --> `[Ctrl]` State Machine from Enum  
+`T` --> `[LabVIEW Build-in]` `[Ctrl]` `[Shift]` Move Labels         
+`U` --> _Reserved_  
+`V` --> _Reserved_  
+`W` --> `[LabVIEW Build-in]` `[Ctrl]` `[Shift]` Wire Multiple Objects Together      
+`X` --> _Reserved_  
+`Y` --> _Reserved_  
+`Z` --> _Reserved_  
 
 ## Tools/NEVSTOP/QuickDrop Menu
 
