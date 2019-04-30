@@ -22,7 +22,7 @@
 `N` --> _Reserved_  
 `O` --> _Reserved_  
 `P` --> `[LabVIEW Build-in]` `[Ctrl]` Replace     
-`Q` --> _Reserved_  
+`Q` --> `[Ctrl]` NEVSTOP QD Shortcuts (ChoosingDialog) 
 `R` --> `[LabVIEW Build-in]` `[Ctrl]` Remove And Rewire       
 `S` --> `[Ctrl]` State Machine from Enum  
 `T` --> `[LabVIEW Build-in]` `[Ctrl]` `[Shift]` Move Labels         
@@ -117,6 +117,15 @@ Default Shortcut - [Shift][T]
 ```
 
 ## Additional QuickDrops
+
+### NEVSTOP QD Shortcuts(Choosing Dialog)
+
+NEVSTOP Quickdrops. Using a choosing dialog for quick QD selection.
+
+```
+Default Shortcut - [Q]
+```
+
 
 ### Arrange VI Window
 
@@ -223,3 +232,4 @@ How-To :
 ```
 Default Shortcut - [S]
 ```
+
