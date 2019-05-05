@@ -6,32 +6,32 @@
 
 ## Default Key-QD Mapping
 
-`A` --> `[Ctrl]` Clone Controls    
-`B` --> _Reserved_  
-`C` --> `[Ctrl]` Clear Array  
-`D` --> `[LabVIEW Build-in]` `[Ctrl]` Wire All Terminals      
-`E` --> _Reserved_  
-`F` --> `[Ctrl]` Arrange VI Window  
-`G` --> `[Ctrl]` `[Shift]` Create a Place VI Contents    
-`H` --> _Reserved_  
-`I` --> `[LabVIEW Build-in]` `[Ctrl]` `[Shift]` Insert      
-`J` --> _Reserved_  
-`K` --> _Reserved_  
-`L` --> `[Ctrl]` `[Shift]` Create FGV  
-`M` --> _Reserved_  
-`N` --> `[Ctrl]` Format Numeric  
-`O` --> `[Ctrl]` Reset Origin   
-`P` --> `[LabVIEW Build-in]` `[Ctrl]` Replace     
-`Q` --> `[Ctrl]` NEVSTOP QD Shortcuts (ChoosingDialog) 
-`R` --> `[LabVIEW Build-in]` `[Ctrl]` Remove And Rewire       
-`S` --> `[Ctrl]` State Machine from Enum  
-`T` --> `[LabVIEW Build-in]` `[Ctrl]` `[Shift]` Move Labels         
-`U` --> _Reserved_  
-`V` --> _Reserved_  
-`W` --> `[LabVIEW Build-in]` `[Ctrl]` `[Shift]` Wire Multiple Objects Together      
-`X` --> _Reserved_  
-`Y` --> _Reserved_  
-`Z` --> _Reserved_  
+`A` --> `[Ctrl]` Clone Controls</br>
+`B` --> _Reserved_</br>
+`C` --> `[Ctrl]` Clear Array</br>
+`D` --> `[LabVIEW Build-in]` `[Ctrl]` Wire All Terminals</br>
+`E` --> _Reserved_</br>
+`F` --> `[Ctrl]` Arrange VI Window</br>
+`G` --> `[Ctrl]` `[Shift]` Create a Place VI Contents</br>
+`H` --> _Reserved_</br>
+`I` --> `[LabVIEW Build-in]` `[Ctrl]` `[Shift]` Insert</br>
+`J` --> _Reserved_</br>
+`K` --> _Reserved_</br>
+`L` --> `[Ctrl]` `[Shift]` Create FGV</br>
+`M` --> _Reserved_</br>
+`N` --> `[Ctrl]` Format Numeric</br>
+`O` --> `[Ctrl]` Reset Origin</br>
+`P` --> `[LabVIEW Build-in]` `[Ctrl]` Replace</br>
+`Q` --> `[Ctrl]` NEVSTOP QD Shortcuts (ChoosingDialog)</br>
+`R` --> `[LabVIEW Build-in]` `[Ctrl]` Remove And Rewire</br>
+`S` --> `[Ctrl]` State Machine from Enum</br>
+`T` --> `[LabVIEW Build-in]` `[Ctrl]` `[Shift]` Move Labels</br>
+`U` --> _Reserved_</br>
+`V` --> _Reserved_</br>
+`W` --> `[LabVIEW Build-in]` `[Ctrl]` `[Shift]` Wire Multiple Objects Together</br>
+`X` --> _Reserved_</br>
+`Y` --> _Reserved_</br>
+`Z` --> _Reserved_</br>
 
 ## Tools/NEVSTOP/QuickDrop Menu
 
