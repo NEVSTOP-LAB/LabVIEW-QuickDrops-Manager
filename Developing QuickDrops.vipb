@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2019-02-21 11:18:16" Modified_Date="2019-05-05 10:11:24" Creator="ni" Comments="" ID="d88cf6dd44699725dded3b18ca29e328">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2019-02-21 11:18:16" Modified_Date="2019-05-05 10:20:49" Creator="ni" Comments="" ID="6c2aff242ddc5f2fc09756319534912b">
   <Library_General_Settings>
     <Package_File_Name>NEVSTOP_lib_Developing_QuickDrops</Package_File_Name>
-    <Library_Version>0.6.1.1</Library_Version>
+    <Library_Version>0.6.2.1</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>vip</Library_Output_Folder>
@@ -54,7 +54,7 @@
 `K` --&gt; _Reserved_  
 `L` --&gt; `[Ctrl]` `[Shift]` Create FGV  
 `M` --&gt; _Reserved_  
-`N` --&gt; _Reserved_  
+`N` --&gt; `[Ctrl]` Format Numeric  
 `O` --&gt; `[Ctrl]` Reset Origin   
 `P` --&gt; `[LabVIEW Build-in]` `[Ctrl]` Replace     
 `Q` --&gt; `[Ctrl]` NEVSTOP QD Shortcuts (ChoosingDialog) 
@@ -270,7 +270,7 @@ Default Shortcut - [S]
 
 ### Reset Origin
 
-**link**: [QDKS - State Machine from Enum](https://forums.ni.com/t5/Quick-Drop-Enthusiasts/Quick-Drop-Plugin-Reset-Origin/gpm-p/3527195?profile.language=zh-CN)  
+**link**: [Reset Origin](https://forums.ni.com/t5/Quick-Drop-Enthusiasts/Quick-Drop-Plugin-Reset-Origin/gpm-p/3527195?profile.language=zh-CN)  
 **Author**:Andreas S
 
 Note: This shortcut ships with LabVIEW 2018 and later with a default assignment of Ctrl-O. You only need to download it from here if you are using LabVIEW 2017 or previous.
@@ -281,7 +281,29 @@ Resets the origin for all panes or the block diagram.
 Default Shortcut - [O]
 ```
 
-</Description>
+### Format Numeric
+**link**: [Format Numeric](https://forums.ni.com/t5/Quick-Drop-Enthusiasts/Format-Numeric-vi/gpm-p/3492847?profile.language=zh-CN)  
+**Author**:crossrulz
+
+In response to a couple of ideas from the Idea Exchange (here and here), I was inspired to make a quick drop shortcut to attempt to accomadate the spirit of the ideas: a better way to format your numeric controls, indicators, and constants.  So here is my plug in.
+
+To install
+
+Put VI in the &lt;LabVIEW&gt;\resource\dialog\QuickDrop\plugins folder.
+
+How to use
+
+Open quick drop (Ctrl+Space)
+Type in the format specifier you want (I will use %02x as an example)
+Press Ctrl+N (N for numeric)
+Any controls, constants, or indicators that you selected that can accept that format will be set to display in that format
+Future additions I would like to do
+
+Automatically show the radix if setting to hex, octal, or binary display.
+
+```
+Default Shortcut - [N]
+```</Description>
       <Copyright/>
       <Packager>NEVSTOP</Packager>
       <URL>https://github.com/nevstop</URL>
@@ -296,6 +318,30 @@ Resets the origin for all panes or the block diagram.
 
 ```
 Default Shortcut - [O]
+```
+
+### Format Numeric
+**link**: [Format Numeric](https://forums.ni.com/t5/Quick-Drop-Enthusiasts/Format-Numeric-vi/gpm-p/3492847?profile.language=zh-CN)  
+**Author**:crossrulz
+
+In response to a couple of ideas from the Idea Exchange (here and here), I was inspired to make a quick drop shortcut to attempt to accomadate the spirit of the ideas: a better way to format your numeric controls, indicators, and constants.  So here is my plug in.
+
+To install
+
+Put VI in the &lt;LabVIEW&gt;\resource\dialog\QuickDrop\plugins folder.
+
+How to use
+
+Open quick drop (Ctrl+Space)
+Type in the format specifier you want (I will use %02x as an example)
+Press Ctrl+N (N for numeric)
+Any controls, constants, or indicators that you selected that can accept that format will be set to display in that format
+Future additions I would like to do
+
+Automatically show the radix if setting to hex, octal, or binary display.
+
+```
+Default Shortcut - [N]
 ```</Release_Notes>
     </Description>
     <Destinations>
@@ -452,6 +498,11 @@ Default Shortcut - [O]
       </Namespace_Overrides>
       <Namespace_Overrides>
         <Path>src/resource/dialog/QuickDrop/plugins/QD_Reset Origin/Reset Origin.lvlib</Path>
+        <Namespace_Type>Suffix</Namespace_Type>
+        <Namespace>_NEVSTOP</Namespace>
+      </Namespace_Overrides>
+      <Namespace_Overrides>
+        <Path>src/resource/dialog/QuickDrop/plugins/QD_Format Numeric/Format Numeric.lvlib</Path>
         <Namespace_Type>Suffix</Namespace_Type>
         <Namespace>_NEVSTOP</Namespace>
       </Namespace_Overrides>

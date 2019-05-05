@@ -19,7 +19,7 @@
 `K` --> _Reserved_  
 `L` --> `[Ctrl]` `[Shift]` Create FGV  
 `M` --> _Reserved_  
-`N` --> _Reserved_  
+`N` --> `[Ctrl]` Format Numeric  
 `O` --> `[Ctrl]` Reset Origin   
 `P` --> `[LabVIEW Build-in]` `[Ctrl]` Replace     
 `Q` --> `[Ctrl]` NEVSTOP QD Shortcuts (ChoosingDialog) 
@@ -235,7 +235,7 @@ Default Shortcut - [S]
 
 ### Reset Origin
 
-**link**: [QDKS - State Machine from Enum](https://forums.ni.com/t5/Quick-Drop-Enthusiasts/Quick-Drop-Plugin-Reset-Origin/gpm-p/3527195?profile.language=zh-CN)  
+**link**: [Reset Origin](https://forums.ni.com/t5/Quick-Drop-Enthusiasts/Quick-Drop-Plugin-Reset-Origin/gpm-p/3527195?profile.language=zh-CN)  
 **Author**:Andreas S
 
 Note: This shortcut ships with LabVIEW 2018 and later with a default assignment of Ctrl-O. You only need to download it from here if you are using LabVIEW 2017 or previous.
@@ -246,3 +246,26 @@ Resets the origin for all panes or the block diagram.
 Default Shortcut - [O]
 ```
 
+### Format Numeric
+**link**: [Format Numeric](https://forums.ni.com/t5/Quick-Drop-Enthusiasts/Format-Numeric-vi/gpm-p/3492847?profile.language=zh-CN)  
+**Author**:crossrulz
+
+In response to a couple of ideas from the Idea Exchange (here and here), I was inspired to make a quick drop shortcut to attempt to accomadate the spirit of the ideas: a better way to format your numeric controls, indicators, and constants.  So here is my plug in.
+
+To install
+
+Put VI in the <LabVIEW>\resource\dialog\QuickDrop\plugins folder.
+
+How to use
+
+Open quick drop (Ctrl+Space)
+Type in the format specifier you want (I will use %02x as an example)
+Press Ctrl+N (N for numeric)
+Any controls, constants, or indicators that you selected that can accept that format will be set to display in that format
+Future additions I would like to do
+
+Automatically show the radix if setting to hex, octal, or binary display.
+
+```
+Default Shortcut - [N]
+```
