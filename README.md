@@ -20,7 +20,7 @@
 `L` --> `[Ctrl]` `[Shift]` Create FGV  
 `M` --> _Reserved_  
 `N` --> _Reserved_  
-`O` --> _Reserved_  
+`O` --> `[Ctrl]` Reset Origin   
 `P` --> `[LabVIEW Build-in]` `[Ctrl]` Replace     
 `Q` --> `[Ctrl]` NEVSTOP QD Shortcuts (ChoosingDialog) 
 `R` --> `[LabVIEW Build-in]` `[Ctrl]` Remove And Rewire       
@@ -52,7 +52,7 @@ Update QuickDrop ShortCuts Hints.vi
 
 - `Open LabVIEW Folder.vi`   
    Open LabVIEW Folder to view the LabVIEW.ini and LabVIEW.ini.bk.txt files.
-- `Open Customized Ini Tokens Folder.vi` 
+- `Open Customized Ini Tokens Folder.vi`  
    Open the folder of customized ini files.
 - `Merge Tokens of Ini Files.vi`   
    Merge the selected ini tokens to LabVIEW.ini file.
@@ -188,7 +188,7 @@ Default Shortcut - [Shift][L]
 
 ### Create a Place VI Contents
 
-**link**: [Create a Place VI Contents](https://decibel.ni.com/content/docs/DOC-12725)
+**link**: [Create a Place VI Contents](https://decibel.ni.com/content/docs/DOC-12725)  
 **Author**:Jarrod S
 
 
@@ -213,7 +213,7 @@ Default Shortcut - [Shift][G]
 
 ### State Machine from Enum
 
-**link**: [QDKS - State Machine from Enum](https://forums.ni.com/t5/Quick-Drop-Enthusiasts/QDKS-State-Machine-from-Enum/gpm-p/3524404?profile.language=zh-CN)
+**link**: [QDKS - State Machine from Enum](https://forums.ni.com/t5/Quick-Drop-Enthusiasts/QDKS-State-Machine-from-Enum/gpm-p/3524404?profile.language=zh-CN)  
 **Author**:Eric M.
 
 I am kind of emo to post my first QD here. I figured this one would be of use for quite a bunch of developers.
@@ -231,5 +231,18 @@ How-To :
 
 ```
 Default Shortcut - [S]
+```
+
+### Reset Origin
+
+**link**: [QDKS - State Machine from Enum](https://forums.ni.com/t5/Quick-Drop-Enthusiasts/Quick-Drop-Plugin-Reset-Origin/gpm-p/3527195?profile.language=zh-CN)  
+**Author**:Andreas S
+
+Note: This shortcut ships with LabVIEW 2018 and later with a default assignment of Ctrl-O. You only need to download it from here if you are using LabVIEW 2017 or previous.
+
+Resets the origin for all panes or the block diagram.
+
+```
+Default Shortcut - [O]
 ```
 
