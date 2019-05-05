@@ -4,17 +4,7 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">335577088</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Item Name="plugin" Type="Folder">
-		<Item Name="_autosizeCluster_Fit.vi" Type="VI" URL="../plugins/_autosizeCluster_Fit.vi"/>
-		<Item Name="_autosizeCluster_H.vi" Type="VI" URL="../plugins/_autosizeCluster_H.vi"/>
-		<Item Name="_autosizeCluster_V.vi" Type="VI" URL="../plugins/_autosizeCluster_V.vi"/>
-		<Item Name="_Clear.vi" Type="VI" URL="../plugins/_Clear.vi"/>
-		<Item Name="_lazyboot1.vi" Type="VI" URL="../plugins/_lazyboot1.vi"/>
-		<Item Name="_LazyBoot4.vi" Type="VI" URL="../plugins/_LazyBoot4.vi"/>
-		<Item Name="_Reset Origin.vi" Type="VI" URL="../plugins/_Reset Origin.vi"/>
-		<Item Name="_Show Wire Label.vi" Type="VI" URL="../plugins/_Show Wire Label.vi"/>
-		<Item Name="_ViewInFolder.vi" Type="VI" URL="../plugins/_ViewInFolder.vi"/>
-	</Item>
+	<Item Name="plugin" Type="Folder"/>
 	<Item Name="_nevstop_choosingDlg.vi" Type="VI" URL="../_nevstop_choosingDlg.vi"/>
 	<Item Name="NEVSTOP QD Shortcuts.vi" Type="VI" URL="../NEVSTOP QD Shortcuts.vi"/>
 </Library>
