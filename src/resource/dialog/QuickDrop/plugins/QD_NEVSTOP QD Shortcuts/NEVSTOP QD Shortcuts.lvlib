@@ -4,7 +4,12 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">335577088</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Item Name="plugin" Type="Folder"/>
+	<Item Name="support" Type="Folder">
+		<Item Name="FilterBooleanRefs.vi" Type="VI" URL="../_support/FilterBooleanRefs.vi"/>
+		<Item Name="LookupQuickDrop.vi" Type="VI" URL="../_support/LookupQuickDrop.vi"/>
+		<Item Name="PopulateToBooleanRef.vi" Type="VI" URL="../_support/PopulateToBooleanRef.vi"/>
+		<Item Name="UpdateBooleanRef.vi" Type="VI" URL="../_support/UpdateBooleanRef.vi"/>
+	</Item>
 	<Item Name="_nevstop_choosingDlg.vi" Type="VI" URL="../_nevstop_choosingDlg.vi"/>
 	<Item Name="NEVSTOP QD Shortcuts.vi" Type="VI" URL="../NEVSTOP QD Shortcuts.vi"/>
 </Library>

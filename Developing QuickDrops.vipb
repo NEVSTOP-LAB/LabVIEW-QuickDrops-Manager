@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2019-02-21 11:18:16" Modified_Date="2019-05-05 10:28:26" Creator="ni" Comments="" ID="5be52ade57029a0c5c38f4e662686806">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2019-02-21 11:18:16" Modified_Date="2019-05-05 15:37:44" Creator="ni" Comments="" ID="9461833e9ae659a7d416a326078c8716">
   <Library_General_Settings>
     <Package_File_Name>NEVSTOP_lib_Developing_QuickDrops</Package_File_Name>
-    <Library_Version>0.6.2.2</Library_Version>
+    <Library_Version>0.7.0.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>vip</Library_Output_Folder>
@@ -17,6 +17,7 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
+      <Additional_External_Dependencies>mgi_lib_string &gt;=1.1.1.5</Additional_External_Dependencies>
       <Additional_External_Dependencies>oglib_appcontrol &gt;=4.1.0.7</Additional_External_Dependencies>
       <Additional_External_Dependencies>oglib_array &gt;=4.1.1.14</Additional_External_Dependencies>
       <Additional_External_Dependencies>oglib_file &gt;=4.0.1.22</Additional_External_Dependencies>
@@ -307,42 +308,7 @@ Default Shortcut - [N]
       <Copyright/>
       <Packager>NEVSTOP</Packager>
       <URL>https://github.com/nevstop</URL>
-      <Release_Notes>### Reset Origin
-
-**link**: [QDKS - State Machine from Enum](https://forums.ni.com/t5/Quick-Drop-Enthusiasts/Quick-Drop-Plugin-Reset-Origin/gpm-p/3527195?profile.language=zh-CN)  
-**Author**:Andreas S
-
-Note: This shortcut ships with LabVIEW 2018 and later with a default assignment of Ctrl-O. You only need to download it from here if you are using LabVIEW 2017 or previous.
-
-Resets the origin for all panes or the block diagram.
-
-```
-Default Shortcut - [O]
-```
-
-### Format Numeric
-**link**: [Format Numeric](https://forums.ni.com/t5/Quick-Drop-Enthusiasts/Format-Numeric-vi/gpm-p/3492847?profile.language=zh-CN)  
-**Author**:crossrulz
-
-In response to a couple of ideas from the Idea Exchange (here and here), I was inspired to make a quick drop shortcut to attempt to accomadate the spirit of the ideas: a better way to format your numeric controls, indicators, and constants.  So here is my plug in.
-
-To install
-
-Put VI in the &lt;LabVIEW&gt;\resource\dialog\QuickDrop\plugins folder.
-
-How to use
-
-Open quick drop (Ctrl+Space)
-Type in the format specifier you want (I will use %02x as an example)
-Press Ctrl+N (N for numeric)
-Any controls, constants, or indicators that you selected that can accept that format will be set to display in that format
-Future additions I would like to do
-
-Automatically show the radix if setting to hex, octal, or binary display.
-
-```
-Default Shortcut - [N]
-```</Release_Notes>
+      <Release_Notes>Update NEVSTOP_QuickDrop ShortCuts. Auto matically load all quick drops.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
