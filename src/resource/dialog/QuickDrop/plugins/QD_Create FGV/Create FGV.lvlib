@@ -4,6 +4,5 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">335577088</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Item Name="Create FGV.txt" Type="Document" URL="../Create FGV.txt"/>
 	<Item Name="Create FGV.vi" Type="VI" URL="../Create FGV.vi"/>
 </Library>

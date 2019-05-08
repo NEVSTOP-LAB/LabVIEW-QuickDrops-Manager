@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2019-02-21 11:18:16" Modified_Date="2019-05-08 13:33:50" Creator="ni" Comments="" ID="b15b55c0827870d0270a14de318aff41">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2019-02-21 11:18:16" Modified_Date="2019-05-08 14:48:45" Creator="ni" Comments="" ID="f1028736d1bcd23614647816eb4b6c09">
   <Library_General_Settings>
     <Package_File_Name>NEVSTOP_lib_Developing_QuickDrops</Package_File_Name>
-    <Library_Version>0.8.0.2</Library_Version>
+    <Library_Version>0.8.1.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>vip</Library_Output_Folder>
@@ -322,7 +322,10 @@ Create references with 'Build Array'/'buddle' together.
 
 ```
 Default Shortcut - [B]
-```</Release_Notes>
+```
+
+Fix bug:
+ - "Create FGV" Save VIs to SysTemp Folder by default #2i</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>

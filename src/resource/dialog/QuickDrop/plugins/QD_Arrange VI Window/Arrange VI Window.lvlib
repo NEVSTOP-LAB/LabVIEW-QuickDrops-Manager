@@ -40,6 +40,5 @@
 		<Item Name="Arrange VIWin - Window Margins.ctl" Type="VI" URL="../_Arrange VIWin SubVIs/Arrange VIWin - Window Margins.ctl"/>
 		<Item Name="Arrange VIWin - Window Type.ctl" Type="VI" URL="../_Arrange VIWin SubVIs/Arrange VIWin - Window Type.ctl"/>
 	</Item>
-	<Item Name="Arrange VI Window.txt" Type="Document" URL="../Arrange VI Window.txt"/>
 	<Item Name="Arrange VI Window.vi" Type="VI" URL="../Arrange VI Window.vi"/>
 </Library>

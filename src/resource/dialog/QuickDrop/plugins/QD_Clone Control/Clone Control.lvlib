@@ -4,6 +4,5 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">335577088</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Item Name="Clone Control.txt" Type="Document" URL="../Clone Control.txt"/>
 	<Item Name="Clone Control.vi" Type="VI" URL="../Clone Control.vi"/>
 </Library>

@@ -9,5 +9,4 @@
 		<Item Name="State Machine from Enum (2010).vi" Type="VI" URL="../_old version/State Machine from Enum (2010).vi"/>
 	</Item>
 	<Item Name="State Machine from Enum.vi" Type="VI" URL="../State Machine from Enum.vi"/>
-	<Item Name="State Machine from Enum.txt" Type="Document" URL="../State Machine from Enum.txt"/>
 </Library>
