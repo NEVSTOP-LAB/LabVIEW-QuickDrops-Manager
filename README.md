@@ -7,7 +7,7 @@
 ## Default Key-QD Mapping
 
 `A` --> `[Ctrl]` Clone Controls</br>
-`B` --> _Reserved_</br>
+`B` --> `[Ctrl]` Build Array of References</br>
 `C` --> `[Ctrl]` Clear Array</br>
 `D` --> `[LabVIEW Build-in]` `[Ctrl]` Wire All Terminals</br>
 `E` --> _Reserved_</br>
@@ -268,4 +268,12 @@ Automatically show the radix if setting to hex, octal, or binary display.
 
 ```
 Default Shortcut - [N]
+```
+
+### Build Array of References/Build Cluster of References
+
+Create references with 'Build Array'/'buddle' together.
+
+```
+Default Shortcut - [B]
 ```

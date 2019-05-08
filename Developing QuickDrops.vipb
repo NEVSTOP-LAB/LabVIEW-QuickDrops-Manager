@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2019-02-21 11:18:16" Modified_Date="2019-05-05 15:37:44" Creator="ni" Comments="" ID="9461833e9ae659a7d416a326078c8716">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2019-02-21 11:18:16" Modified_Date="2019-05-08 13:33:50" Creator="ni" Comments="" ID="b15b55c0827870d0270a14de318aff41">
   <Library_General_Settings>
     <Package_File_Name>NEVSTOP_lib_Developing_QuickDrops</Package_File_Name>
-    <Library_Version>0.7.0.2</Library_Version>
+    <Library_Version>0.8.0.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>vip</Library_Output_Folder>
@@ -42,32 +42,32 @@
 
 ## Default Key-QD Mapping
 
-`A` --&gt; `[Ctrl]` Clone Controls    
-`B` --&gt; _Reserved_  
-`C` --&gt; `[Ctrl]` Clear Array  
-`D` --&gt; `[LabVIEW Build-in]` `[Ctrl]` Wire All Terminals      
-`E` --&gt; _Reserved_  
-`F` --&gt; `[Ctrl]` Arrange VI Window  
-`G` --&gt; `[Ctrl]` `[Shift]` Create a Place VI Contents    
-`H` --&gt; _Reserved_  
-`I` --&gt; `[LabVIEW Build-in]` `[Ctrl]` `[Shift]` Insert      
-`J` --&gt; _Reserved_  
-`K` --&gt; _Reserved_  
-`L` --&gt; `[Ctrl]` `[Shift]` Create FGV  
-`M` --&gt; _Reserved_  
-`N` --&gt; `[Ctrl]` Format Numeric  
-`O` --&gt; `[Ctrl]` Reset Origin   
-`P` --&gt; `[LabVIEW Build-in]` `[Ctrl]` Replace     
-`Q` --&gt; `[Ctrl]` NEVSTOP QD Shortcuts (ChoosingDialog) 
-`R` --&gt; `[LabVIEW Build-in]` `[Ctrl]` Remove And Rewire       
-`S` --&gt; `[Ctrl]` State Machine from Enum  
-`T` --&gt; `[LabVIEW Build-in]` `[Ctrl]` `[Shift]` Move Labels         
-`U` --&gt; _Reserved_  
-`V` --&gt; _Reserved_  
-`W` --&gt; `[LabVIEW Build-in]` `[Ctrl]` `[Shift]` Wire Multiple Objects Together      
-`X` --&gt; _Reserved_  
-`Y` --&gt; _Reserved_  
-`Z` --&gt; _Reserved_  
+`A` --&gt; `[Ctrl]` Clone Controls&lt;/br&gt;
+`B` --&gt; `[Ctrl]` Build Array of References&lt;/br&gt;
+`C` --&gt; `[Ctrl]` Clear Array&lt;/br&gt;
+`D` --&gt; `[LabVIEW Build-in]` `[Ctrl]` Wire All Terminals&lt;/br&gt;
+`E` --&gt; _Reserved_&lt;/br&gt;
+`F` --&gt; `[Ctrl]` Arrange VI Window&lt;/br&gt;
+`G` --&gt; `[Ctrl]` `[Shift]` Create a Place VI Contents&lt;/br&gt;
+`H` --&gt; _Reserved_&lt;/br&gt;
+`I` --&gt; `[LabVIEW Build-in]` `[Ctrl]` `[Shift]` Insert&lt;/br&gt;
+`J` --&gt; _Reserved_&lt;/br&gt;
+`K` --&gt; _Reserved_&lt;/br&gt;
+`L` --&gt; `[Ctrl]` `[Shift]` Create FGV&lt;/br&gt;
+`M` --&gt; _Reserved_&lt;/br&gt;
+`N` --&gt; `[Ctrl]` Format Numeric&lt;/br&gt;
+`O` --&gt; `[Ctrl]` Reset Origin&lt;/br&gt;
+`P` --&gt; `[LabVIEW Build-in]` `[Ctrl]` Replace&lt;/br&gt;
+`Q` --&gt; `[Ctrl]` NEVSTOP QD Shortcuts (ChoosingDialog)&lt;/br&gt;
+`R` --&gt; `[LabVIEW Build-in]` `[Ctrl]` Remove And Rewire&lt;/br&gt;
+`S` --&gt; `[Ctrl]` State Machine from Enum&lt;/br&gt;
+`T` --&gt; `[LabVIEW Build-in]` `[Ctrl]` `[Shift]` Move Labels&lt;/br&gt;
+`U` --&gt; _Reserved_&lt;/br&gt;
+`V` --&gt; _Reserved_&lt;/br&gt;
+`W` --&gt; `[LabVIEW Build-in]` `[Ctrl]` `[Shift]` Wire Multiple Objects Together&lt;/br&gt;
+`X` --&gt; _Reserved_&lt;/br&gt;
+`Y` --&gt; _Reserved_&lt;/br&gt;
+`Z` --&gt; _Reserved_&lt;/br&gt;
 
 ## Tools/NEVSTOP/QuickDrop Menu
 
@@ -304,11 +304,25 @@ Automatically show the radix if setting to hex, octal, or binary display.
 
 ```
 Default Shortcut - [N]
+```
+
+### Build Array of References/Build Cluster of References
+
+Create references with 'Build Array'/'buddle' together.
+
+```
+Default Shortcut - [B]
 ```</Description>
       <Copyright/>
       <Packager>NEVSTOP</Packager>
       <URL>https://github.com/nevstop</URL>
-      <Release_Notes>Update NEVSTOP_QuickDrop ShortCuts. Auto matically load all quick drops.</Release_Notes>
+      <Release_Notes>### Build Array of References/Build Cluster of References
+
+Create references with 'Build Array'/'buddle' together.
+
+```
+Default Shortcut - [B]
+```</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -469,6 +483,16 @@ Default Shortcut - [N]
       </Namespace_Overrides>
       <Namespace_Overrides>
         <Path>src/resource/dialog/QuickDrop/plugins/QD_Format Numeric/Format Numeric.lvlib</Path>
+        <Namespace_Type>Suffix</Namespace_Type>
+        <Namespace>_NEVSTOP</Namespace>
+      </Namespace_Overrides>
+      <Namespace_Overrides>
+        <Path>src/resource/dialog/QuickDrop/plugins/QD_Build Cluster of References/Build Cluster Of Reference.vi</Path>
+        <Namespace_Type>Suffix</Namespace_Type>
+        <Namespace>_NEVSTOP</Namespace>
+      </Namespace_Overrides>
+      <Namespace_Overrides>
+        <Path>src/resource/dialog/QuickDrop/plugins/QD_Build Array of References/Build Array of References.vi</Path>
         <Namespace_Type>Suffix</Namespace_Type>
         <Namespace>_NEVSTOP</Namespace>
       </Namespace_Overrides>
