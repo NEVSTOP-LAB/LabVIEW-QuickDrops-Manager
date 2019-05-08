@@ -277,3 +277,7 @@ Create references with 'Build Array'/'buddle' together.
 ```
 Default Shortcut - [B]
 ```
+
+### Refresh Palette
+
+After some chane of Control/Function Pallette, you can manually update the pallette with this quickdrop.
