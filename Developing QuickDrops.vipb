@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2019-02-21 11:18:16" Modified_Date="2019-05-09 09:32:04" Creator="ni" Comments="" ID="9bb83d9d35971b7781e38ea40a2fc8b9">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2019-02-21 11:18:16" Modified_Date="2019-05-14 10:06:21" Creator="ni" Comments="" ID="cbf02c6a9291833e824af6c2e021c576">
   <Library_General_Settings>
     <Package_File_Name>NEVSTOP_lib_Developing_QuickDrops</Package_File_Name>
     <Library_Version>0.8.3.4</Library_Version>
@@ -318,6 +318,7 @@ Default Shortcut - [B]
       <URL>https://github.com/nevstop</URL>
       <Release_Notes>New QD:
 Build Array of References/Build Cluster of References
+Color up Structure
 
 Improvement:
 NEVSOTP_QuickDropShortCut: Update UI
@@ -465,7 +466,7 @@ Fix bug:
       <Namespace_Overrides>
         <Path>src/resource/dialog/QuickDrop/plugins/QD_State Machine From Enum</Path>
         <Namespace_Type>Suffix</Namespace_Type>
-        <Namespace>_NEVSTOP</Namespace>
+        <Namespace/>
       </Namespace_Overrides>
       <Namespace_Overrides>
         <Path>src/resource/dialog/QuickDrop/plugins/QD_Create a Place VI Contents/Create a Place VI Contents.lvlib</Path>
@@ -494,6 +495,16 @@ Fix bug:
       </Namespace_Overrides>
       <Namespace_Overrides>
         <Path>src/resource/dialog/QuickDrop/plugins/QD_Build Array of References/Build Array of References.vi</Path>
+        <Namespace_Type>Suffix</Namespace_Type>
+        <Namespace>_NEVSTOP</Namespace>
+      </Namespace_Overrides>
+      <Namespace_Overrides>
+        <Path>src/resource/dialog/QuickDrop/plugins/QD_State Machine From Enum/State Machine From Enum.lvlib</Path>
+        <Namespace_Type>Suffix</Namespace_Type>
+        <Namespace>_NEVSTOP</Namespace>
+      </Namespace_Overrides>
+      <Namespace_Overrides>
+        <Path>src/resource/dialog/QuickDrop/plugins/QD_ColourUpStructures/ColourUpStructures.lvlib</Path>
         <Namespace_Type>Suffix</Namespace_Type>
         <Namespace>_NEVSTOP</Namespace>
       </Namespace_Overrides>
