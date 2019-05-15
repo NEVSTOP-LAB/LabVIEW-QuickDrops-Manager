@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2019-02-21 11:18:16" Modified_Date="2019-05-14 10:06:21" Creator="ni" Comments="" ID="cbf02c6a9291833e824af6c2e021c576">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2019-02-21 11:18:16" Modified_Date="2019-05-15 09:36:25" Creator="ni" Comments="" ID="ba29cbf7a0666b3ad64d2055a69e7bd7">
   <Library_General_Settings>
     <Package_File_Name>NEVSTOP_lib_Developing_QuickDrops</Package_File_Name>
-    <Library_Version>0.8.3.4</Library_Version>
+    <Library_Version>0.9.0.1</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>vip</Library_Output_Folder>
@@ -56,7 +56,7 @@
 `L` --&gt; `[Ctrl]` `[Shift]` Create FGV&lt;/br&gt;
 `M` --&gt; _Reserved_&lt;/br&gt;
 `N` --&gt; `[Ctrl]` Format Numeric&lt;/br&gt;
-`O` --&gt; `[Ctrl]` Reset Origin&lt;/br&gt;
+`O` --&gt; `[Ctrl]` Smart Open VI Location in Explorer Window&lt;/br&gt;
 `P` --&gt; `[LabVIEW Build-in]` `[Ctrl]` Replace&lt;/br&gt;
 `Q` --&gt; `[Ctrl]` NEVSTOP QD Shortcuts (ChoosingDialog)&lt;/br&gt;
 `R` --&gt; `[LabVIEW Build-in]` `[Ctrl]` Remove And Rewire&lt;/br&gt;
@@ -152,7 +152,8 @@ Default Shortcut - [T]
 Default Shortcut - [Shift][T]
 ```
 
-## Additional QuickDrops
+
+## QD_NEVSTOP
 
 ### NEVSTOP QD Shortcuts(Choosing Dialog)
 
@@ -162,6 +163,25 @@ NEVSTOP Quickdrops. Using a choosing dialog for quick QD selection.
 Default Shortcut - [Q]
 ```
 
+### Smart Open VI Location in Explorer Window
+
+Publish with 2 other QuickDrop:
+ - `Open Current VI's Location in Explorer Window`
+ - `Open Selected VI's Location in Explorer Window`
+
+When triggered on Front Panel:
+Open Current VI's Location in Explorer Window.
+
+When triggered on Block Diagram:
+No SubVI is selected: Open Current VI's Location in Explorer Window.
+SubVIs are selected: Open Selected VI's Location in Explorer Window.
+
+```
+Default Shortcut - [O]
+```
+
+
+## 3rd Party QuickDrops
 
 ### Arrange VI Window
 
@@ -278,9 +298,6 @@ Note: This shortcut ships with LabVIEW 2018 and later with a default assignment 
 
 Resets the origin for all panes or the block diagram.
 
-```
-Default Shortcut - [O]
-```
 
 ### Format Numeric
 **link**: [Format Numeric](https://forums.ni.com/t5/Quick-Drop-Enthusiasts/Format-Numeric-vi/gpm-p/3492847?profile.language=zh-CN)  
@@ -312,19 +329,26 @@ Create references with 'Build Array'/'buddle' together.
 
 ```
 Default Shortcut - [B]
-```</Description>
+```
+
+### Refresh Palette
+
+After some chane of Control/Function Pallette, you can manually update the pallette with this quickdrop.
+
+</Description>
       <Copyright/>
       <Packager>NEVSTOP</Packager>
       <URL>https://github.com/nevstop</URL>
       <Release_Notes>New QD:
-Build Array of References/Build Cluster of References
-Color up Structure
+Smart Open Vi Location in Explorer Window
+Open Selected Vi location in Explorer Window
+Open Current Vi location in Explorer Window
 
 Improvement:
-NEVSOTP_QuickDropShortCut: Update UI
+Change Ctrl+O to Smart Open VI location instead of Reset Origin.
 
 Fix bug:
- - "Create FGV" Save VIs to SysTemp Folder by default #2i</Release_Notes>
+</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -507,6 +531,11 @@ Fix bug:
         <Path>src/resource/dialog/QuickDrop/plugins/QD_ColourUpStructures/ColourUpStructures.lvlib</Path>
         <Namespace_Type>Suffix</Namespace_Type>
         <Namespace>_NEVSTOP</Namespace>
+      </Namespace_Overrides>
+      <Namespace_Overrides>
+        <Path>src/resource/dialog/QuickDrop/plugins/NEVSTOP_QuickDrop/NEVSTOP_QuickDrop.lvlib</Path>
+        <Namespace_Type>Suffix</Namespace_Type>
+        <Namespace>_NEVSTOP_lib_Developing_QuickDrops</Namespace>
       </Namespace_Overrides>
       <Exclusions>
         <Path>DEV ENVIRONMENT LabVIEW 2014</Path>

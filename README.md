@@ -20,7 +20,7 @@
 `L` --> `[Ctrl]` `[Shift]` Create FGV</br>
 `M` --> _Reserved_</br>
 `N` --> `[Ctrl]` Format Numeric</br>
-`O` --> `[Ctrl]` Reset Origin</br>
+`O` --> `[Ctrl]` Smart Open VI Location in Explorer Window</br>
 `P` --> `[LabVIEW Build-in]` `[Ctrl]` Replace</br>
 `Q` --> `[Ctrl]` NEVSTOP QD Shortcuts (ChoosingDialog)</br>
 `R` --> `[LabVIEW Build-in]` `[Ctrl]` Remove And Rewire</br>
@@ -116,7 +116,8 @@ Default Shortcut - [T]
 Default Shortcut - [Shift][T]
 ```
 
-## Additional QuickDrops
+
+## QD_NEVSTOP
 
 ### NEVSTOP QD Shortcuts(Choosing Dialog)
 
@@ -126,6 +127,25 @@ NEVSTOP Quickdrops. Using a choosing dialog for quick QD selection.
 Default Shortcut - [Q]
 ```
 
+### Smart Open VI Location in Explorer Window
+
+Publish with 2 other QuickDrop:
+ - `Open Current VI's Location in Explorer Window`
+ - `Open Selected VI's Location in Explorer Window`
+
+When triggered on Front Panel:
+Open Current VI's Location in Explorer Window.
+
+When triggered on Block Diagram:
+No SubVI is selected: Open Current VI's Location in Explorer Window.
+SubVIs are selected: Open Selected VI's Location in Explorer Window.
+
+```
+Default Shortcut - [O]
+```
+
+
+## 3rd Party QuickDrops
 
 ### Arrange VI Window
 
@@ -242,9 +262,6 @@ Note: This shortcut ships with LabVIEW 2018 and later with a default assignment 
 
 Resets the origin for all panes or the block diagram.
 
-```
-Default Shortcut - [O]
-```
 
 ### Format Numeric
 **link**: [Format Numeric](https://forums.ni.com/t5/Quick-Drop-Enthusiasts/Format-Numeric-vi/gpm-p/3492847?profile.language=zh-CN)  
@@ -281,3 +298,4 @@ Default Shortcut - [B]
 ### Refresh Palette
 
 After some chane of Control/Function Pallette, you can manually update the pallette with this quickdrop.
+
