@@ -5,10 +5,13 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="support" Type="Folder">
+		<Item Name="ChangeAssignedShortcut.vi" Type="VI" URL="../_support/ChangeAssignedShortcut.vi"/>
 		<Item Name="FilterBooleanRefs.vi" Type="VI" URL="../_support/FilterBooleanRefs.vi"/>
 		<Item Name="LookupQuickDrop.vi" Type="VI" URL="../_support/LookupQuickDrop.vi"/>
 		<Item Name="PopulateToBooleanRef.vi" Type="VI" URL="../_support/PopulateToBooleanRef.vi"/>
+		<Item Name="TrimShortcutPrefix.vi" Type="VI" URL="../_support/TrimShortcutPrefix.vi"/>
 		<Item Name="UpdateBooleanRef.vi" Type="VI" URL="../_support/UpdateBooleanRef.vi"/>
+		<Item Name="WrapStrToFitButtonSize.vi" Type="VI" URL="../_support/WrapStrToFitButtonSize.vi"/>
 	</Item>
 	<Item Name="_nevstop_choosingDlg.vi" Type="VI" URL="../_nevstop_choosingDlg.vi"/>
 	<Item Name="NEVSTOP QD Shortcuts.vi" Type="VI" URL="../NEVSTOP QD Shortcuts.vi"/>
