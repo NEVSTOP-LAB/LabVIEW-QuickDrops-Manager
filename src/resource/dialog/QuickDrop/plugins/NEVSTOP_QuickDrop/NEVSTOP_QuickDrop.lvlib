@@ -4,7 +4,9 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">335577088</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="Open Current VI Location.vi" Type="VI" URL="../Open Current VI Location.vi"/>
 	<Item Name="Open Selected VI Location.vi" Type="VI" URL="../Open Selected VI Location.vi"/>
 	<Item Name="Smart Open VI Locaiton.vi" Type="VI" URL="../Smart Open VI Locaiton.vi"/>
+	<Item Name="Refresh Palette.vi" Type="VI" URL="../Refresh Palette.vi"/>
 </Library>

@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2019-02-21 11:18:16" Modified_Date="2019-05-15 09:36:25" Creator="ni" Comments="" ID="ba29cbf7a0666b3ad64d2055a69e7bd7">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2019-02-21 11:18:16" Modified_Date="2019-05-15 15:24:26" Creator="ni" Comments="" ID="598c0e638b0ac78ce6248150e1f7c866">
   <Library_General_Settings>
     <Package_File_Name>NEVSTOP_lib_Developing_QuickDrops</Package_File_Name>
-    <Library_Version>0.9.0.1</Library_Version>
+    <Library_Version>0.9.0.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>vip</Library_Output_Folder>
@@ -17,6 +17,7 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
+      <Additional_External_Dependencies>mgi_lib_file &gt;=1.1.0.4</Additional_External_Dependencies>
       <Additional_External_Dependencies>mgi_lib_string &gt;=1.1.1.5</Additional_External_Dependencies>
       <Additional_External_Dependencies>oglib_appcontrol &gt;=4.1.0.7</Additional_External_Dependencies>
       <Additional_External_Dependencies>oglib_array &gt;=4.1.1.14</Additional_External_Dependencies>
@@ -162,6 +163,12 @@ NEVSTOP Quickdrops. Using a choosing dialog for quick QD selection.
 ```
 Default Shortcut - [Q]
 ```
+
+
+### Refresh Palette
+
+After some chane of Control/Function Pallette, you can manually update the pallette with this quickdrop.
+
 
 ### Smart Open VI Location in Explorer Window
 
@@ -331,10 +338,6 @@ Create references with 'Build Array'/'buddle' together.
 Default Shortcut - [B]
 ```
 
-### Refresh Palette
-
-After some chane of Control/Function Pallette, you can manually update the pallette with this quickdrop.
-
 </Description>
       <Copyright/>
       <Packager>NEVSTOP</Packager>
@@ -346,9 +349,11 @@ Open Current Vi location in Explorer Window
 
 Improvement:
 Change Ctrl+O to Smart Open VI location instead of Reset Origin.
+Support Drag&amp;Drop to change assigned shortcut.
+Last executed QD will be displayed on the topmost.
 
 Fix bug:
-</Release_Notes>
+None.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>

@@ -127,6 +127,12 @@ NEVSTOP Quickdrops. Using a choosing dialog for quick QD selection.
 Default Shortcut - [Q]
 ```
 
+
+### Refresh Palette
+
+After some chane of Control/Function Pallette, you can manually update the pallette with this quickdrop.
+
+
 ### Smart Open VI Location in Explorer Window
 
 Publish with 2 other QuickDrop:
@@ -294,8 +300,4 @@ Create references with 'Build Array'/'buddle' together.
 ```
 Default Shortcut - [B]
 ```
-
-### Refresh Palette
-
-After some chane of Control/Function Pallette, you can manually update the pallette with this quickdrop.
 
