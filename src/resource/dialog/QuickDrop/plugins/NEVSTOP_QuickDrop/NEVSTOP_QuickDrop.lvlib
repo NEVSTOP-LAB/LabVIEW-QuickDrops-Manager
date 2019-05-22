@@ -8,5 +8,6 @@
 	<Item Name="Open Current VI Location.vi" Type="VI" URL="../Open Current VI Location.vi"/>
 	<Item Name="Open Selected VI Location.vi" Type="VI" URL="../Open Selected VI Location.vi"/>
 	<Item Name="Smart Open VI Locaiton.vi" Type="VI" URL="../Smart Open VI Locaiton.vi"/>
+	<Item Name="Reset Origin.vi" Type="VI" URL="../Reset Origin.vi"/>
 	<Item Name="Refresh Palette.vi" Type="VI" URL="../Refresh Palette.vi"/>
 </Library>
