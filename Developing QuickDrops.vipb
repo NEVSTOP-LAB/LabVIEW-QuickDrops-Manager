@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2019-02-21 11:18:16" Modified_Date="2019-05-15 15:24:26" Creator="ni" Comments="" ID="598c0e638b0ac78ce6248150e1f7c866">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2019-02-21 11:18:16" Modified_Date="2019-05-23 09:25:19" Creator="ni" Comments="" ID="2b6a3523231c7e87d09638797bd48e3e">
   <Library_General_Settings>
     <Package_File_Name>NEVSTOP_lib_Developing_QuickDrops</Package_File_Name>
-    <Library_Version>0.9.0.2</Library_Version>
+    <Library_Version>0.10.0.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>vip</Library_Output_Folder>
@@ -343,14 +343,10 @@ Default Shortcut - [B]
       <Packager>NEVSTOP</Packager>
       <URL>https://github.com/nevstop</URL>
       <Release_Notes>New QD:
-Smart Open Vi Location in Explorer Window
-Open Selected Vi location in Explorer Window
-Open Current Vi location in Explorer Window
+Align&amp;Distribute Controls.
 
 Improvement:
-Change Ctrl+O to Smart Open VI location instead of Reset Origin.
-Support Drag&amp;Drop to change assigned shortcut.
-Last executed QD will be displayed on the topmost.
+None.
 
 Fix bug:
 None.</Release_Notes>
@@ -508,11 +504,6 @@ None.</Release_Notes>
         <Namespace>_NEVSTOP</Namespace>
       </Namespace_Overrides>
       <Namespace_Overrides>
-        <Path>src/resource/dialog/QuickDrop/plugins/QD_Reset Origin/Reset Origin.lvlib</Path>
-        <Namespace_Type>Suffix</Namespace_Type>
-        <Namespace>_NEVSTOP</Namespace>
-      </Namespace_Overrides>
-      <Namespace_Overrides>
         <Path>src/resource/dialog/QuickDrop/plugins/QD_Format Numeric/Format Numeric.lvlib</Path>
         <Namespace_Type>Suffix</Namespace_Type>
         <Namespace>_NEVSTOP</Namespace>
@@ -541,6 +532,11 @@ None.</Release_Notes>
         <Path>src/resource/dialog/QuickDrop/plugins/NEVSTOP_QuickDrop/NEVSTOP_QuickDrop.lvlib</Path>
         <Namespace_Type>Suffix</Namespace_Type>
         <Namespace>_NEVSTOP_lib_Developing_QuickDrops</Namespace>
+      </Namespace_Overrides>
+      <Namespace_Overrides>
+        <Path>src/resource/dialog/QuickDrop/plugins/QD_Align&amp;Distribute/Align and Distribute.lvlib</Path>
+        <Namespace_Type>Suffix</Namespace_Type>
+        <Namespace>_NEVSTOP</Namespace>
       </Namespace_Overrides>
       <Exclusions>
         <Path>DEV ENVIRONMENT LabVIEW 2014</Path>
