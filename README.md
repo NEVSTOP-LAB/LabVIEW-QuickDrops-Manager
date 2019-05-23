@@ -6,7 +6,7 @@
 
 ## Default Key-QD Mapping
 
-`A` --> `[Ctrl]` Clone Controls</br>
+`A` --> `[Ctrl]` Align and Distribute</br>
 `B` --> `[Ctrl]` Build Array of References</br>
 `C` --> `[Ctrl]` Clear Array</br>
 `D` --> `[LabVIEW Build-in]` `[Ctrl]` Wire All Terminals</br>
@@ -127,6 +127,22 @@ NEVSTOP Quickdrops. Using a choosing dialog for quick QD selection.
 Default Shortcut - [Q]
 ```
 
+### Clone Controls
+
+This Quick Drop Keyboard Shortcut will clone the selected Control(s) or Indicator(s) on the Front Panel but changes Controls to Indicators and vice versa.  In addition, if found on the Connector Pane, it will attempt to place the newly created control on the opposite (left / right) side of the Connector Pane.
+
+It was developed to automate the task where, for example,  you have a File Ref (in) control, and you want to wire it through the other side of the ConPane.
+
+Note: This script only supports the following patterns: 4x2x2x4, 5x3x3x5, 6x4x4x6, and 8x6x6x8
+
+
+### Clear Array
+
+Clears the selected array(s) and sets the default value to empty. If shift is also pressed while viewing the front panel, it will affect all front panel arrays, regardless of selection. 
+
+```
+Default Shortcut - [C]
+```
 
 ### Refresh Palette
 
@@ -168,26 +184,6 @@ When used on the block diagram:
 
 ```
 Default Shortcut - [F]
-```
-
-### Clone Controls
-
-This Quick Drop Keyboard Shortcut will clone the selected Control(s) or Indicator(s) on the Front Panel but changes Controls to Indicators and vice versa.  In addition, if found on the Connector Pane, it will attempt to place the newly created control on the opposite (left / right) side of the Connector Pane.
-
-It was developed to automate the task where, for example,  you have a File Ref (in) control, and you want to wire it through the other side of the ConPane.
-
-Note: This script only supports the following patterns: 4x2x2x4, 5x3x3x5, 6x4x4x6, and 8x6x6x8
-
-```
-Default Shortcut - [A]
-```
-
-### Clear Array
-
-Clears the selected array(s) and sets the default value to empty. If shift is also pressed while viewing the front panel, it will affect all front panel arrays, regardless of selection. 
-
-```
-Default Shortcut - [C]
 ```
 
 ### While Loop Subdiagram Label
@@ -301,3 +297,10 @@ Create references with 'Build Array'/'buddle' together.
 Default Shortcut - [B]
 ```
 
+### Align and Distribute
+
+Align and Distribute slected controls/indicators/SubVIs. A pop-up dialog will be used for selecting the way you want.
+
+```
+Default Shortcut - [A]
+```
