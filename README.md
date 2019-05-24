@@ -8,9 +8,9 @@
 
 `A` --> `[Ctrl]` Align and Distribute</br>
 `B` --> `[Ctrl]` Build Array of References</br>
-`C` --> `[Ctrl]` Clear Array</br>
+`C` --> _Reserved_</br>
 `D` --> `[LabVIEW Build-in]` `[Ctrl]` Wire All Terminals</br>
-`E` --> _Reserved_</br>
+`E` --> `[Ctrl]` Erease Data(Clear Data)</br>
 `F` --> `[Ctrl]` Arrange VI Window</br>
 `G` --> `[Ctrl]` `[Shift]` Create a Place VI Contents</br>
 `H` --> _Reserved_</br>
@@ -136,12 +136,19 @@ It was developed to automate the task where, for example,  you have a File Ref (
 Note: This script only supports the following patterns: 4x2x2x4, 5x3x3x5, 6x4x4x6, and 8x6x6x8
 
 
-### Clear Array
+### Erease Data(Clear Data)
 
-Clears the selected array(s) and sets the default value to empty. If shift is also pressed while viewing the front panel, it will affect all front panel arrays, regardless of selection. 
+Clear control/Constant's data. Clear Array QD is replaced. Supported type:
+- Array
+- String
+- Listbox
+- MulticolumnListBox
+- Numeric
+- Table
+- Tree
 
 ```
-Default Shortcut - [C]
+Default Shortcut - [E]
 ```
 
 ### Refresh Palette

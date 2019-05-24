@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2019-02-21 11:18:16" Modified_Date="2019-05-24 15:53:58" Creator="ni" Comments="" ID="14d36378729c6d020d9db14818734913">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2019-02-21 11:18:16" Modified_Date="2019-05-24 17:26:34" Creator="ni" Comments="" ID="0da799f8b583cfe8b475336d1c678062">
   <Library_General_Settings>
     <Package_File_Name>NEVSTOP_lib_Developing_QuickDrops</Package_File_Name>
-    <Library_Version>0.10.2.3</Library_Version>
+    <Library_Version>0.10.4.3</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>vip</Library_Output_Folder>
@@ -47,9 +47,9 @@
 
 `A` --&gt; `[Ctrl]` Align and Distribute&lt;/br&gt;
 `B` --&gt; `[Ctrl]` Build Array of References&lt;/br&gt;
-`C` --&gt; `[Ctrl]` Clear Array&lt;/br&gt;
+`C` --&gt; _Reserved_&lt;/br&gt;
 `D` --&gt; `[LabVIEW Build-in]` `[Ctrl]` Wire All Terminals&lt;/br&gt;
-`E` --&gt; _Reserved_&lt;/br&gt;
+`E` --&gt; `[Ctrl]` Erease Data(Clear Data)&lt;/br&gt;
 `F` --&gt; `[Ctrl]` Arrange VI Window&lt;/br&gt;
 `G` --&gt; `[Ctrl]` `[Shift]` Create a Place VI Contents&lt;/br&gt;
 `H` --&gt; _Reserved_&lt;/br&gt;
@@ -171,17 +171,34 @@ It was developed to automate the task where, for example,  you have a File Ref (
 
 Note: This script only supports the following patterns: 4x2x2x4, 5x3x3x5, 6x4x4x6, and 8x6x6x8
 
-### Clear Array
+### Erease Data(Clear Data)
 
-Clears the selected array(s) and sets the default value to empty. If shift is also pressed while viewing the front panel, it will affect all front panel arrays, regardless of selection. 
+Clear control/Constant's data. Clear Array QD is replaced. Supported type:
+
+- Array
+- String
+- Listbox
+- MulticolumnListBox
+- Numeric
+- Table
+- Tree
 
 ```
-Default Shortcut - [C]
+Default Shortcut - [E]
+
 ```
 
 ### Refresh Palette
 
 After some chane of Control/Function Pallette, you can manually update the pallette with this quickdrop.
+
+### Hide Controls/Show Controls
+
+Show/Hide selected FP Controls.
+
+### Copy Boolean Caption to Boolean Text
+
+Copy selected boolean's caption to boolean text. If the booleans have no caption, label Text will be used instead.
 
 ### Smart Open VI Location in Explorer Window
 
@@ -199,13 +216,14 @@ SubVIs are selected: Open Selected VI's Location in Explorer Window.
 
 ```
 Default Shortcut - [O]
+
 ```
 
 ## 3r Party QuickDrops
 
 ### Arrange VI Window
 
-**link**:[Quick Drop Keyboard Shortcut ¨C Arrange VI Window](https://forums.ni.com/t5/Quick-Drop-Enthusiasts/Quick-Drop-Keyboard-Shortcut-Arrange-VI-Window/gpm-p/3867352?profile.language=zh-CN)    
+**link**:[Quick Drop Keyboard Shortcut – Arrange VI Window](https://forums.ni.com/t5/Quick-Drop-Enthusiasts/Quick-Drop-Keyboard-Shortcut-Arrange-VI-Window/gpm-p/3867352?profile.language=zh-CN)    
 **Author**:Kosta
 
 When used on the front panel:
@@ -218,6 +236,7 @@ When used on the block diagram:
 
 ```
 Default Shortcut - [F]
+
 ```
 
 ### While Loop Subdiagram Label
@@ -226,6 +245,7 @@ Takes the text in the Quick Drop box and applies it as a subdiagram label to a W
 
 ```
 Default Shortcut - NaN
+
 ```
 
 ### Create FGV
@@ -240,6 +260,7 @@ Create a FGV base on wire, control, indicator or constante datatype you select.
 ```
 Default Shortcut - [L]
 Default Shortcut - [Shift][L]
+
 ```
 
 ### Create a Place VI Contents
@@ -264,6 +285,7 @@ Note:  All Place VI Contents VIs that are created with this shortcut are stored 
 ```
 Default Shortcut - [G]
 Default Shortcut - [Shift][G]
+
 ```
 
 ### State Machine from Enum
@@ -287,6 +309,7 @@ How-To :
 
 ```
 Default Shortcut - [S]
+
 ```
 
 ### Reset Origin
@@ -321,6 +344,7 @@ Automatically show the radix if setting to hex, octal, or binary display.
 
 ```
 Default Shortcut - [N]
+
 ```
 
 ### Build Array of References/Build Cluster of References
@@ -329,6 +353,7 @@ Create references with 'Build Array'/'buddle' together.
 
 ```
 Default Shortcut - [B]
+
 ```
 
 ### Align and Distribute
@@ -337,6 +362,7 @@ Align and Distribute slected controls/indicators/SubVIs. A pop-up dialog will be
 
 ```
 Default Shortcut - [A]
+
 ```
 
 ### Cluster Auto-Sizing
@@ -351,7 +377,11 @@ Using a float dialog to choose cluster auto-sizing type. Press `Shift` to set th
 ```
 Default Shortcut - [U]
 Default Shortcut - [Shift][U]
+
 ```
+
+
+
 </Description>
       <Copyright/>
       <Packager>NEVSTOP</Packager>
@@ -363,7 +393,8 @@ Default Shortcut - [Shift][U]
  - Copy Boolean Caption to Boolean Text.
 
 Improvement:
-Update Icon.
+ - Update Icon.
+ - Peplace ClearArray with EreaseData(ClearData) QD to support more datatypes.
 
 Fix bug:
 None.</Release_Notes>
