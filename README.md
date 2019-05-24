@@ -148,6 +148,14 @@ Default Shortcut - [C]
 
 After some chane of Control/Function Pallette, you can manually update the pallette with this quickdrop.
 
+### Hide Controls/Show Controls
+
+Show/Hide selected FP Controls.
+
+### Copy Boolean Caption to Boolean Text
+
+Copy selected boolean's caption to boolean text. If the booleans have no caption, label Text will be used instead.
+
 
 ### Smart Open VI Location in Explorer Window
 
