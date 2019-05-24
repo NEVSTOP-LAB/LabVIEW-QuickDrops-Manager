@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2019-02-21 11:18:16" Modified_Date="2019-05-24 17:26:34" Creator="ni" Comments="" ID="0da799f8b583cfe8b475336d1c678062">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2019-02-21 11:18:16" Modified_Date="2019-05-24 17:46:19" Creator="ni" Comments="" ID="7732854cba76f311654e6b07273185c9">
   <Library_General_Settings>
     <Package_File_Name>NEVSTOP_lib_Developing_QuickDrops</Package_File_Name>
-    <Library_Version>0.10.4.3</Library_Version>
+    <Library_Version>0.10.4.5</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>vip</Library_Output_Folder>
@@ -539,7 +539,7 @@ None.</Release_Notes>
       <Namespace_Overrides>
         <Path>src/resource/dialog/QuickDrop/plugins/QD_NEVSTOP QD Shortcuts/NEVSTOP QD Shortcuts.lvlib</Path>
         <Namespace_Type>Suffix</Namespace_Type>
-        <Namespace>_NEVSTOP</Namespace>
+        <Namespace>_NEVSTOP_lib_Developing_QuickDrops</Namespace>
       </Namespace_Overrides>
       <Namespace_Overrides>
         <Path>src/resource/dialog/QuickDrop/plugins/QD_Format Numeric/Format Numeric.lvlib</Path>
@@ -572,14 +572,19 @@ None.</Release_Notes>
         <Namespace>_NEVSTOP_lib_Developing_QuickDrops</Namespace>
       </Namespace_Overrides>
       <Namespace_Overrides>
-        <Path>src/resource/dialog/QuickDrop/plugins/QD_Align&amp;Distribute/Align and Distribute.lvlib</Path>
-        <Namespace_Type>Suffix</Namespace_Type>
-        <Namespace>_NEVSTOP</Namespace>
-      </Namespace_Overrides>
-      <Namespace_Overrides>
         <Path>src/resource/dialog/QuickDrop/plugins/QD_Cluster AutoSizing/Cluster AutoSizing.lvlib</Path>
         <Namespace_Type>Suffix</Namespace_Type>
-        <Namespace>_NEVSTOP</Namespace>
+        <Namespace>_NEVSTOP_lib_Developing_QuickDrops</Namespace>
+      </Namespace_Overrides>
+      <Namespace_Overrides>
+        <Path>src/resource/dialog/QuickDrop/plugins/QD_Align&amp;Distribute/Align and Distribute.lvlib</Path>
+        <Namespace_Type>Suffix</Namespace_Type>
+        <Namespace>_NEVSTOP_lib_Developing_QuickDrops</Namespace>
+      </Namespace_Overrides>
+      <Namespace_Overrides>
+        <Path>src/resource/dialog/QuickDrop/plugins/QD_Erease Data/QD_Erease Data.lvlib</Path>
+        <Namespace_Type>Suffix</Namespace_Type>
+        <Namespace>_NEVSTOP_lib_Developing_QuickDrops</Namespace>
       </Namespace_Overrides>
       <Exclusions>
         <Path>DEV ENVIRONMENT LabVIEW 2014</Path>
