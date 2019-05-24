@@ -26,7 +26,7 @@
 `R` --> `[LabVIEW Build-in]` `[Ctrl]` Remove And Rewire</br>
 `S` --> `[Ctrl]` State Machine from Enum</br>
 `T` --> `[LabVIEW Build-in]` `[Ctrl]` `[Shift]` Move Labels</br>
-`U` --> _Reserved_</br>
+`U` -->  `[Ctrl]` `[Shift]` Cluster Auto-Sizing</br>
 `V` --> _Reserved_</br>
 `W` --> `[LabVIEW Build-in]` `[Ctrl]` `[Shift]` Wire Multiple Objects Together</br>
 `X` --> _Reserved_</br>
@@ -166,8 +166,7 @@ SubVIs are selected: Open Selected VI's Location in Explorer Window.
 Default Shortcut - [O]
 ```
 
-
-## 3rd Party QuickDrops
+## 3r Party QuickDrops
 
 ### Arrange VI Window
 
@@ -215,17 +214,17 @@ Default Shortcut - [Shift][L]
 
 
 (Note: The following shortcut was originally posted by Jarrod S. on the NI Forums here.  I decided to give his shortcut a more permanent home in the Quick Drop Enthusiasts group.)
- 
+
 This Quick Drop Keyboard Shortcut allows you to create a Place VI Contents VI (formerly called a "Merge VI") of your diagram selection and automatically create a user.lib palette entry for it, so that you can easily drop that selection of code in the future.  Follow these steps to use this shortcut:
- 
+
 Save the attached VI in your <LabVIEW>\resource\dialog\QuickDrop\plugins folder.  No LabVIEW restart is required.
 Select something on your diagram that you wish to make into a Place VI Contents VI.
 Press Ctrl-Space-Ctrl-Shift-G.
 Specify a name for this Place VI Contents VI.
 Create an icon
- 
+
 Now you have a Place VI Contents VI that contains this diagram selection that you can use from your palettes (or Quick Drop).  Note that in step (3) above, if you had pressed Ctrl-Space-Ctrl-G instead, the palettes would not be refreshed automatically, and you would have to restart LabVIEW in order to use the new Place VI Contents VI.
- 
+
 Note:  All Place VI Contents VIs that are created with this shortcut are stored in <LabVIEW Data>\QuickDrop Templates.  The actual .mnu files that provide the palette entries are stored in <LabVIEW>\user.lib\QuickDrop Templates Palette.mnu.
 
 ```
@@ -304,3 +303,19 @@ Align and Distribute slected controls/indicators/SubVIs. A pop-up dialog will be
 ```
 Default Shortcut - [A]
 ```
+
+### Cluster Auto-Sizing
+
+Using a float dialog to choose cluster auto-sizing type. Press `Shift` to set the contained cluster items recursively. 
+- None
+- Size to Fit
+- Arrange Horizontally
+- Arrange Vertically
+
+```
+Default Shortcut - [U]
+Default Shortcut - [Shift][U]
+```
+
+
+
