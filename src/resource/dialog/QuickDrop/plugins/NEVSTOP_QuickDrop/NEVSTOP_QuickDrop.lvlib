@@ -14,7 +14,7 @@
 		<Item Name="Open Selected VI Location.vi" Type="VI" URL="../Open Selected VI Location.vi"/>
 		<Item Name="Smart Open VI Locaiton.vi" Type="VI" URL="../Smart Open VI Locaiton.vi"/>
 	</Item>
-	<Item Name="Clone Origin" Type="Folder">
+	<Item Name="Reset Origin" Type="Folder">
 		<Item Name="Reset Origin.vi" Type="VI" URL="../Reset Origin.vi"/>
 	</Item>
 	<Item Name="Clone Control" Type="Folder">
