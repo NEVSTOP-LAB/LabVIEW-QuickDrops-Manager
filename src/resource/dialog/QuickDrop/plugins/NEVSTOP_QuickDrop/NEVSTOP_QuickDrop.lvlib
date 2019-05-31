@@ -5,9 +5,12 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
-	<Item Name="Show/Hide Control" Type="Folder">
+	<Item Name="Controls Operation" Type="Folder">
 		<Item Name="Hide Controls.vi" Type="VI" URL="../Hide Controls.vi"/>
 		<Item Name="Show Controls.vi" Type="VI" URL="../Show Controls.vi"/>
+		<Item Name="Enable Controls.vi" Type="VI" URL="../Enable Controls.vi"/>
+		<Item Name="Disable Controls.vi" Type="VI" URL="../Disable Controls.vi"/>
+		<Item Name="Disable&amp;Grayout Controls.vi" Type="VI" URL="../Disable&amp;Grayout Controls.vi"/>
 	</Item>
 	<Item Name="Smart Open VI Location" Type="Folder">
 		<Item Name="Open Current VI Location.vi" Type="VI" URL="../Open Current VI Location.vi"/>
