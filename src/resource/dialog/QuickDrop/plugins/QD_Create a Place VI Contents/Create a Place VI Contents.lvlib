@@ -5,4 +5,5 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Create a Place VI Contents.vi" Type="VI" URL="../Create a Place VI Contents.vi"/>
+	<Item Name="Refresh Palette.vi" Type="VI" URL="../Refresh Palette.vi"/>
 </Library>

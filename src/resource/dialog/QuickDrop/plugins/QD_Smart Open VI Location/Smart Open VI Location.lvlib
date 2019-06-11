@@ -5,10 +5,8 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
-	<Item Name="QuickDrop Plugin Template.vit" Type="VI" URL="../QuickDrop Plugin Template.vit"/>
-	<Item Name="Export QD Shortcuts.vi" Type="VI" URL="../Export QD Shortcuts.vi"/>
-	<Item Name="Import LabVIEW.ini Tokens.vi" Type="VI" URL="../Import LabVIEW.ini Tokens.vi"/>
-	<Item Name="Import QD Shortcuts.vi" Type="VI" URL="../Import QD Shortcuts.vi"/>
-	<Item Name="Open Customized Ini Tokens Folder.vi" Type="VI" URL="../Open Customized Ini Tokens Folder.vi"/>
-	<Item Name="Update QuickDrop ShortCuts Hints.vi" Type="VI" URL="../Update QuickDrop ShortCuts Hints.vi"/>
+	<Item Name="Smart Open VI Locaiton.vi" Type="VI" URL="../Smart Open VI Locaiton.vi"/>
+	<Item Name="Open Current VI Location.vi" Type="VI" URL="../Open Current VI Location.vi"/>
+	<Item Name="Open Selected VI Location.vi" Type="VI" URL="../Open Selected VI Location.vi"/>
+	<Item Name="Open LabVIEW Program Folder.vi" Type="VI" URL="../Open LabVIEW Program Folder.vi"/>
 </Library>

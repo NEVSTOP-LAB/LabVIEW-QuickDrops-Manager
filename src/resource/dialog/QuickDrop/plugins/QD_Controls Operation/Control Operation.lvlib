@@ -4,5 +4,13 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">335577088</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Item Name="Format Numeric.vi" Type="VI" URL="../Format Numeric.vi"/>
+	<Property Name="NI.SortType" Type="Int">3</Property>
+	<Item Name="Reset Origin.vi" Type="VI" URL="../Reset Origin.vi"/>
+	<Item Name="Clone Control.vi" Type="VI" URL="../Clone Control.vi"/>
+	<Item Name="Copy Boolean Caption to BooleanText.vi" Type="VI" URL="../Copy Boolean Caption to BooleanText.vi"/>
+	<Item Name="Show Controls.vi" Type="VI" URL="../Show Controls.vi"/>
+	<Item Name="Hide Controls.vi" Type="VI" URL="../Hide Controls.vi"/>
+	<Item Name="Enable Controls.vi" Type="VI" URL="../Enable Controls.vi"/>
+	<Item Name="Disable Controls.vi" Type="VI" URL="../Disable Controls.vi"/>
+	<Item Name="Disable&amp;Grayout Controls.vi" Type="VI" URL="../Disable&amp;Grayout Controls.vi"/>
 </Library>
