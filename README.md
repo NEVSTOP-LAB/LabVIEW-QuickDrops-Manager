@@ -17,9 +17,9 @@
 `I` --> `[LabVIEW Build-in]` `[Ctrl]` `[Shift]` Insert</br>
 `J` --> _Reserved_</br>
 `K` --> _Reserved_</br>
-`L` --> `[Ctrl]` `[Shift]` Create FGV</br>
+`L` --> _Reserved_</br>
 `M` --> _Reserved_</br>
-`N` --> `[Ctrl]` Format Numeric</br>
+`N` --> _Reserved_</br>
 `O` --> `[Ctrl]` Smart Open VI Location in Explorer Window</br>
 `P` --> `[LabVIEW Build-in]` `[Ctrl]` Replace</br>
 `Q` --> `[Ctrl]` NEVSTOP QD Shortcuts (ChoosingDialog)</br>
@@ -208,20 +208,6 @@ Takes the text in the Quick Drop box and applies it as a subdiagram label to a W
 Default Shortcut - NaN
 ```
 
-### Create FGV
-
-**link**:[Quick Drop Keyboard Shortcut - Create FGV (and RT FGV)](https://forums.ni.com/t5/Quick-Drop-Enthusiasts/Quick-Drop-Keyboard-Shortcut-Create-FGV-and-RT-FGV/gpm-p/3497469?profile.language=zh-CN)    
-**Author**:Florent_A
-
-PLUGIN_DESCRIPTION: 
-Create a FGV base on wire, control, indicator or constante datatype you select.
-2 FGV Templates are available: a classic FGV and a RT FGV what is made to be skipable (please see Template FGV folder)
-
-```
-Default Shortcut - [L]
-Default Shortcut - [Shift][L]
-```
-
 ### Create a Place VI Contents
 
 **link**: [Create a Place VI Contents](https://decibel.ni.com/content/docs/DOC-12725)  
@@ -278,30 +264,6 @@ Note: This shortcut ships with LabVIEW 2018 and later with a default assignment 
 
 Resets the origin for all panes or the block diagram.
 
-
-### Format Numeric
-**link**: [Format Numeric](https://forums.ni.com/t5/Quick-Drop-Enthusiasts/Format-Numeric-vi/gpm-p/3492847?profile.language=zh-CN)  
-**Author**:crossrulz
-
-In response to a couple of ideas from the Idea Exchange (here and here), I was inspired to make a quick drop shortcut to attempt to accomadate the spirit of the ideas: a better way to format your numeric controls, indicators, and constants.  So here is my plug in.
-
-To install
-
-Put VI in the <LabVIEW>\resource\dialog\QuickDrop\plugins folder.
-
-How to use
-
-Open quick drop (Ctrl+Space)
-Type in the format specifier you want (I will use %02x as an example)
-Press Ctrl+N (N for numeric)
-Any controls, constants, or indicators that you selected that can accept that format will be set to display in that format
-Future additions I would like to do
-
-Automatically show the radix if setting to hex, octal, or binary display.
-
-```
-Default Shortcut - [N]
-```
 
 ### Build Array of References/Build Cluster of References
 
