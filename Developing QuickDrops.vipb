@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2019-02-21 11:18:16" Modified_Date="2019-05-24 17:46:19" Creator="ni" Comments="" ID="7732854cba76f311654e6b07273185c9">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2019-02-21 11:18:16" Modified_Date="2019-06-13 18:15:29" Creator="ni" Comments="" ID="774a40bce5b34561d12cd9aec6bb0d42">
   <Library_General_Settings>
     <Package_File_Name>NEVSTOP_lib_Developing_QuickDrops</Package_File_Name>
-    <Library_Version>0.10.4.5</Library_Version>
+    <Library_Version>0.11.0.3</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>vip</Library_Output_Folder>
@@ -17,6 +17,7 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
+      <Additional_External_Dependencies>mgi_lib_application_control &gt;=1.1.1.10</Additional_External_Dependencies>
       <Additional_External_Dependencies>mgi_lib_file &gt;=1.1.0.4</Additional_External_Dependencies>
       <Additional_External_Dependencies>mgi_lib_string &gt;=1.1.1.5</Additional_External_Dependencies>
       <Additional_External_Dependencies>oglib_appcontrol &gt;=4.1.0.7</Additional_External_Dependencies>
@@ -56,9 +57,9 @@
 `I` --&gt; `[LabVIEW Build-in]` `[Ctrl]` `[Shift]` Insert&lt;/br&gt;
 `J` --&gt; _Reserved_&lt;/br&gt;
 `K` --&gt; _Reserved_&lt;/br&gt;
-`L` --&gt; `[Ctrl]` `[Shift]` Create FGV&lt;/br&gt;
+`L` --&gt; _Reserved_&lt;/br&gt;
 `M` --&gt; _Reserved_&lt;/br&gt;
-`N` --&gt; `[Ctrl]` Format Numeric&lt;/br&gt;
+`N` --&gt; _Reserved_&lt;/br&gt;
 `O` --&gt; `[Ctrl]` Smart Open VI Location in Explorer Window&lt;/br&gt;
 `P` --&gt; `[LabVIEW Build-in]` `[Ctrl]` Replace&lt;/br&gt;
 `Q` --&gt; `[Ctrl]` NEVSTOP QD Shortcuts (ChoosingDialog)&lt;/br&gt;
@@ -84,19 +85,21 @@ Merge Tokens of Ini Files.vi
 -
 Update QuickDrop ShortCuts Hints.vi
 ```
-
 - `Export QD ShortCuts`    
-  Export customized shortcuts settings to ini file.
+   Export customized shortcuts settings to ini file.
 - `Import QD ShortCuts`    
-  Import customized shortcuts settings from an ini file.
+   Import customized shortcuts settings from an ini file.
+
 - `Open LabVIEW Folder.vi`   
-  Open LabVIEW Folder to view the LabVIEW.ini and LabVIEW.ini.bk.txt files.
+   Open LabVIEW Folder to view the LabVIEW.ini and LabVIEW.ini.bk.txt files.
 - `Open Customized Ini Tokens Folder.vi`  
-  Open the folder of customized ini files.
+   Open the folder of customized ini files.
 - `Merge Tokens of Ini Files.vi`   
-  Merge the selected ini tokens to LabVIEW.ini file.
+   Merge the selected ini tokens to LabVIEW.ini file.
+   
 - `Update QuickDrop ShortCuts Hints`   
-  Update the Hints in Block Diagram Quick Drop Window after you change the Key-QD Mapping
+   Update the Hints in Block Diagram Quick Drop Window after you change the Key-QD Mapping
+
 
 ## LabVIEW Built-in QuickDrops
 
@@ -153,6 +156,7 @@ Default Shortcut - [T]
 Default Shortcut - [Shift][T]
 ```
 
+
 ## QD_NEVSTOP
 
 ### NEVSTOP QD Shortcuts(Choosing Dialog)
@@ -162,6 +166,14 @@ NEVSTOP Quickdrops. Using a choosing dialog for quick QD selection.
 ```
 Default Shortcut - [Q]
 ```
+
+### Control Operation
+
+- `Reset Origin` : Resets the origin for all panes or the block diagram.
+- `Hide Controls`/`Show Controls`
+- `Enable Controls`/`Disble Controls`/`Disable&amp;Grayout Controls` 
+- `Copy Boolean Caption to Boolean Text` : Copy selected boolean's caption to boolean text. If the booleans have no caption, label Text will be used instead.
+- `Toggle Digital Increment Decrement Visible ( Swithc Show Or Hide ).vi`
 
 ### Clone Controls
 
@@ -174,7 +186,6 @@ Note: This script only supports the following patterns: 4x2x2x4, 5x3x3x5, 6x4x4x
 ### Erease Data(Clear Data)
 
 Clear control/Constant's data. Clear Array QD is replaced. Supported type:
-
 - Array
 - String
 - Listbox
@@ -185,27 +196,18 @@ Clear control/Constant's data. Clear Array QD is replaced. Supported type:
 
 ```
 Default Shortcut - [E]
-
 ```
 
 ### Refresh Palette
 
 After some chane of Control/Function Pallette, you can manually update the pallette with this quickdrop.
 
-### Hide Controls/Show Controls
-
-Show/Hide selected FP Controls.
-
-### Copy Boolean Caption to Boolean Text
-
-Copy selected boolean's caption to boolean text. If the booleans have no caption, label Text will be used instead.
-
 ### Smart Open VI Location in Explorer Window
 
-Publish with 2 other QuickDrop:
-
-- `Open Current VI's Location in Explorer Window`
-- `Open Selected VI's Location in Explorer Window`
+Publish with sub-QuickDrop:
+ - `Open Current VI's Location in Explorer Window`
+ - `Open Selected VI's Location in Explorer Window`
+ - `Open LabVIEW Program Folder`
 
 When triggered on Front Panel:
 Open Current VI's Location in Explorer Window.
@@ -216,7 +218,35 @@ SubVIs are selected: Open Selected VI's Location in Explorer Window.
 
 ```
 Default Shortcut - [O]
+```
 
+### Align and Distribute
+
+Align and Distribute slected controls/indicators/SubVIs. A pop-up dialog will be used for selecting the way you want.
+
+```
+Default Shortcut - [A]
+```
+
+### Cluster Auto-Sizing
+
+Using a float dialog to choose cluster auto-sizing type. Press `Shift` to set the contained cluster items recursively. 
+- None
+- Size to Fit
+- Arrange Horizontally
+- Arrange Vertically
+
+```
+Default Shortcut - [U]
+Default Shortcut - [Shift][U]
+```
+
+### Build Array of References/Build Cluster of References
+
+Create references with 'Build Array'/'buddle' together.
+
+```
+Default Shortcut - [B]
 ```
 
 ## 3r Party QuickDrops
@@ -236,7 +266,6 @@ When used on the block diagram:
 
 ```
 Default Shortcut - [F]
-
 ```
 
 ### While Loop Subdiagram Label
@@ -245,28 +274,13 @@ Takes the text in the Quick Drop box and applies it as a subdiagram label to a W
 
 ```
 Default Shortcut - NaN
-
-```
-
-### Create FGV
-
-**link**:[Quick Drop Keyboard Shortcut - Create FGV (and RT FGV)](https://forums.ni.com/t5/Quick-Drop-Enthusiasts/Quick-Drop-Keyboard-Shortcut-Create-FGV-and-RT-FGV/gpm-p/3497469?profile.language=zh-CN)    
-**Author**:Florent_A
-
-PLUGIN_DESCRIPTION: 
-Create a FGV base on wire, control, indicator or constante datatype you select.
-2 FGV Templates are available: a classic FGV and a RT FGV what is made to be skipable (please see Template FGV folder)
-
-```
-Default Shortcut - [L]
-Default Shortcut - [Shift][L]
-
 ```
 
 ### Create a Place VI Contents
 
 **link**: [Create a Place VI Contents](https://decibel.ni.com/content/docs/DOC-12725)  
 **Author**:Jarrod S
+
 
 (Note: The following shortcut was originally posted by Jarrod S. on the NI Forums here.  I decided to give his shortcut a more permanent home in the Quick Drop Enthusiasts group.)
 
@@ -285,7 +299,6 @@ Note:  All Place VI Contents VIs that are created with this shortcut are stored 
 ```
 Default Shortcut - [G]
 Default Shortcut - [Shift][G]
-
 ```
 
 ### State Machine from Enum
@@ -301,7 +314,6 @@ Pretty much everyone uses state machines as this is a rather basic but efficient
 First thing : create the enum that will describe the states of the machine. Yeah well, with this QDKS, that's roughly the only thing you will need to do.
 
 How-To :
-
 - Copy the attached QD VI to the usual directory.
 - Configure its key (S is fine !)
 - Select an enum terminal or constant in your BD. Make sure there is some free space at the right of the enum.
@@ -309,95 +321,24 @@ How-To :
 
 ```
 Default Shortcut - [S]
-
 ```
-
-### Reset Origin
-
-**link**: [Reset Origin](https://forums.ni.com/t5/Quick-Drop-Enthusiasts/Quick-Drop-Plugin-Reset-Origin/gpm-p/3527195?profile.language=zh-CN)  
-**Author**:Andreas S
-
-Note: This shortcut ships with LabVIEW 2018 and later with a default assignment of Ctrl-O. You only need to download it from here if you are using LabVIEW 2017 or previous.
-
-Resets the origin for all panes or the block diagram.
-
-### Format Numeric
-
-**link**: [Format Numeric](https://forums.ni.com/t5/Quick-Drop-Enthusiasts/Format-Numeric-vi/gpm-p/3492847?profile.language=zh-CN)  
-**Author**:crossrulz
-
-In response to a couple of ideas from the Idea Exchange (here and here), I was inspired to make a quick drop shortcut to attempt to accomadate the spirit of the ideas: a better way to format your numeric controls, indicators, and constants.  So here is my plug in.
-
-To install
-
-Put VI in the &lt;LabVIEW&gt;\resource\dialog\QuickDrop\plugins folder.
-
-How to use
-
-Open quick drop (Ctrl+Space)
-Type in the format specifier you want (I will use %02x as an example)
-Press Ctrl+N (N for numeric)
-Any controls, constants, or indicators that you selected that can accept that format will be set to display in that format
-Future additions I would like to do
-
-Automatically show the radix if setting to hex, octal, or binary display.
-
-```
-Default Shortcut - [N]
-
-```
-
-### Build Array of References/Build Cluster of References
-
-Create references with 'Build Array'/'buddle' together.
-
-```
-Default Shortcut - [B]
-
-```
-
-### Align and Distribute
-
-Align and Distribute slected controls/indicators/SubVIs. A pop-up dialog will be used for selecting the way you want.
-
-```
-Default Shortcut - [A]
-
-```
-
-### Cluster Auto-Sizing
-
-Using a float dialog to choose cluster auto-sizing type. Press `Shift` to set the contained cluster items recursively. 
-
-- None
-- Size to Fit
-- Arrange Horizontally
-- Arrange Vertically
-
-```
-Default Shortcut - [U]
-Default Shortcut - [Shift][U]
-
-```
-
-
-
 </Description>
       <Copyright/>
       <Packager>NEVSTOP</Packager>
       <URL>https://github.com/nevstop</URL>
-      <Release_Notes>New QD:
- - Align&amp;Distribute Controls.
- - Cluster Auto-sizing.
- - Hide/Show Controls.
- - Copy Boolean Caption to Boolean Text.
+      <Release_Notes>New: 
 
-Improvement:
- - Update Icon.
- - Peplace ClearArray with EreaseData(ClearData) QD to support more datatypes.
+NEVSTOP_QD_Dialog: Add counter feature.
 
-Fix bug:
-None.</Release_Notes>
+NEW-QD:
+
+1. Open LabVIEW Program Folder.vi
+2. Toggle Digital Increment Decrement Visible ( Swithc Show Or Hide ).vi
+
+Fix:
+
+1. Reorg current QDs.
+2. Remove invalid QDs.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -485,12 +426,6 @@ None.</Release_Notes>
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
       <Destination_Overrides>
-        <Path>src/project</Path>
-        <Destination>0</Destination>
-        <Additional_Destination>false</Additional_Destination>
-        <Additional_Destination_Index>0</Additional_Destination_Index>
-      </Destination_Overrides>
-      <Destination_Overrides>
         <Path>README.md</Path>
         <Destination>8</Destination>
         <Additional_Destination>false</Additional_Destination>
@@ -522,11 +457,6 @@ None.</Release_Notes>
         <Namespace>_NEVSTOP</Namespace>
       </Namespace_Overrides>
       <Namespace_Overrides>
-        <Path>src/resource/dialog/QuickDrop/plugins/QD_Create FGV/Create FGV.lvlib</Path>
-        <Namespace_Type>Suffix</Namespace_Type>
-        <Namespace>_NEVSTOP</Namespace>
-      </Namespace_Overrides>
-      <Namespace_Overrides>
         <Path>src/resource/dialog/QuickDrop/plugins/QD_State Machine From Enum</Path>
         <Namespace_Type>Suffix</Namespace_Type>
         <Namespace/>
@@ -538,11 +468,6 @@ None.</Release_Notes>
       </Namespace_Overrides>
       <Namespace_Overrides>
         <Path>src/resource/dialog/QuickDrop/plugins/QD_NEVSTOP QD Shortcuts/NEVSTOP QD Shortcuts.lvlib</Path>
-        <Namespace_Type>Suffix</Namespace_Type>
-        <Namespace>_NEVSTOP_lib_Developing_QuickDrops</Namespace>
-      </Namespace_Overrides>
-      <Namespace_Overrides>
-        <Path>src/resource/dialog/QuickDrop/plugins/QD_Format Numeric/Format Numeric.lvlib</Path>
         <Namespace_Type>Suffix</Namespace_Type>
         <Namespace>_NEVSTOP</Namespace>
       </Namespace_Overrides>
@@ -574,7 +499,7 @@ None.</Release_Notes>
       <Namespace_Overrides>
         <Path>src/resource/dialog/QuickDrop/plugins/QD_Cluster AutoSizing/Cluster AutoSizing.lvlib</Path>
         <Namespace_Type>Suffix</Namespace_Type>
-        <Namespace>_NEVSTOP_lib_Developing_QuickDrops</Namespace>
+        <Namespace>_NEVSTOP</Namespace>
       </Namespace_Overrides>
       <Namespace_Overrides>
         <Path>src/resource/dialog/QuickDrop/plugins/QD_Align&amp;Distribute/Align and Distribute.lvlib</Path>
@@ -584,7 +509,17 @@ None.</Release_Notes>
       <Namespace_Overrides>
         <Path>src/resource/dialog/QuickDrop/plugins/QD_Erease Data/QD_Erease Data.lvlib</Path>
         <Namespace_Type>Suffix</Namespace_Type>
-        <Namespace>_NEVSTOP_lib_Developing_QuickDrops</Namespace>
+        <Namespace>_NEVSTOP</Namespace>
+      </Namespace_Overrides>
+      <Namespace_Overrides>
+        <Path>src/resource/dialog/QuickDrop/plugins/QD_Controls Operation/Control Operation.lvlib</Path>
+        <Namespace_Type>Suffix</Namespace_Type>
+        <Namespace>_NEVSTOP</Namespace>
+      </Namespace_Overrides>
+      <Namespace_Overrides>
+        <Path>src/resource/dialog/QuickDrop/plugins/QD_Smart Open VI Location/Smart Open VI Location.lvlib</Path>
+        <Namespace_Type>Suffix</Namespace_Type>
+        <Namespace>_NEVSTOP</Namespace>
       </Namespace_Overrides>
       <Exclusions>
         <Path>DEV ENVIRONMENT LabVIEW 2014</Path>

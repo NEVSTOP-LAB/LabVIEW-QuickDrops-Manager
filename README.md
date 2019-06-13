@@ -127,6 +127,14 @@ NEVSTOP Quickdrops. Using a choosing dialog for quick QD selection.
 Default Shortcut - [Q]
 ```
 
+### Control Operation
+
+- `Reset Origin` : Resets the origin for all panes or the block diagram.
+- `Hide Controls`/`Show Controls`
+- `Enable Controls`/`Disble Controls`/`Disable&Grayout Controls` 
+- `Copy Boolean Caption to Boolean Text` : Copy selected boolean's caption to boolean text. If the booleans have no caption, label Text will be used instead.
+- `Toggle Digital Increment Decrement Visible ( Swithc Show Or Hide ).vi`
+
 ### Clone Controls
 
 This Quick Drop Keyboard Shortcut will clone the selected Control(s) or Indicator(s) on the Front Panel but changes Controls to Indicators and vice versa.  In addition, if found on the Connector Pane, it will attempt to place the newly created control on the opposite (left / right) side of the Connector Pane.
@@ -134,7 +142,6 @@ This Quick Drop Keyboard Shortcut will clone the selected Control(s) or Indicato
 It was developed to automate the task where, for example,  you have a File Ref (in) control, and you want to wire it through the other side of the ConPane.
 
 Note: This script only supports the following patterns: 4x2x2x4, 5x3x3x5, 6x4x4x6, and 8x6x6x8
-
 
 ### Erease Data(Clear Data)
 
@@ -155,20 +162,12 @@ Default Shortcut - [E]
 
 After some chane of Control/Function Pallette, you can manually update the pallette with this quickdrop.
 
-### Hide Controls/Show Controls
-
-Show/Hide selected FP Controls.
-
-### Copy Boolean Caption to Boolean Text
-
-Copy selected boolean's caption to boolean text. If the booleans have no caption, label Text will be used instead.
-
-
 ### Smart Open VI Location in Explorer Window
 
-Publish with 2 other QuickDrop:
+Publish with sub-QuickDrop:
  - `Open Current VI's Location in Explorer Window`
  - `Open Selected VI's Location in Explorer Window`
+ - `Open LabVIEW Program Folder`
 
 When triggered on Front Panel:
 Open Current VI's Location in Explorer Window.
@@ -179,6 +178,35 @@ SubVIs are selected: Open Selected VI's Location in Explorer Window.
 
 ```
 Default Shortcut - [O]
+```
+
+### Align and Distribute
+
+Align and Distribute slected controls/indicators/SubVIs. A pop-up dialog will be used for selecting the way you want.
+
+```
+Default Shortcut - [A]
+```
+
+### Cluster Auto-Sizing
+
+Using a float dialog to choose cluster auto-sizing type. Press `Shift` to set the contained cluster items recursively. 
+- None
+- Size to Fit
+- Arrange Horizontally
+- Arrange Vertically
+
+```
+Default Shortcut - [U]
+Default Shortcut - [Shift][U]
+```
+
+### Build Array of References/Build Cluster of References
+
+Create references with 'Build Array'/'buddle' together.
+
+```
+Default Shortcut - [B]
 ```
 
 ## 3r Party QuickDrops
@@ -254,45 +282,3 @@ How-To :
 ```
 Default Shortcut - [S]
 ```
-
-### Reset Origin
-
-**link**: [Reset Origin](https://forums.ni.com/t5/Quick-Drop-Enthusiasts/Quick-Drop-Plugin-Reset-Origin/gpm-p/3527195?profile.language=zh-CN)  
-**Author**:Andreas S
-
-Note: This shortcut ships with LabVIEW 2018 and later with a default assignment of Ctrl-O. You only need to download it from here if you are using LabVIEW 2017 or previous.
-
-Resets the origin for all panes or the block diagram.
-
-
-### Build Array of References/Build Cluster of References
-
-Create references with 'Build Array'/'buddle' together.
-
-```
-Default Shortcut - [B]
-```
-
-### Align and Distribute
-
-Align and Distribute slected controls/indicators/SubVIs. A pop-up dialog will be used for selecting the way you want.
-
-```
-Default Shortcut - [A]
-```
-
-### Cluster Auto-Sizing
-
-Using a float dialog to choose cluster auto-sizing type. Press `Shift` to set the contained cluster items recursively. 
-- None
-- Size to Fit
-- Arrange Horizontally
-- Arrange Vertically
-
-```
-Default Shortcut - [U]
-Default Shortcut - [Shift][U]
-```
-
-
-
