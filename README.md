@@ -4,6 +4,10 @@
 
 -- [Boost Productivity with Quick Drop](http://www.ni.com/tutorial/7423/en/)
 
+## Ctrl+Q QuickDrop Manager
+
+![image](https://user-images.githubusercontent.com/8196752/82533027-11c7b100-9b75-11ea-9739-a7f55656611a.png)
+
 ## Default Key-QD Mapping
 
 `A` --> `[Ctrl]` Align and Distribute</br>
