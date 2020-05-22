@@ -15,7 +15,7 @@
 4. Key Assignment Backup/Restore.
  
 
-## Default Key-QD Mapping
+### Default Key-QD Mapping
 
 `A` --> `[Ctrl]` Align and Distribute</br>
 `B` --> `[Ctrl]` Build Array of References</br>
@@ -44,7 +44,7 @@
 `Y` --> _Reserved_</br>
 `Z` --> _Reserved_</br>
 
-## Tools/NEVSTOP/QuickDrop Menu
+### Tools/NEVSTOP/QuickDrop Menu
 
 ```
 Import QD Shortcuts.vi
