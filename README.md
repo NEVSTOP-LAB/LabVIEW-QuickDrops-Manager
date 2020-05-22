@@ -8,6 +8,13 @@
 
 ![image](https://user-images.githubusercontent.com/8196752/82533027-11c7b100-9b75-11ea-9739-a7f55656611a.png)
 
+### Feature:   
+1. Drag form QD list to key to change key assignment. 
+2. No need to Assign key to every QD, to support all your installed QDs. Type key words to execute QD. 
+3. QD usage Count.
+4. Key Assignment Backup/Restore.
+ 
+
 ## Default Key-QD Mapping
 
 `A` --> `[Ctrl]` Align and Distribute</br>
