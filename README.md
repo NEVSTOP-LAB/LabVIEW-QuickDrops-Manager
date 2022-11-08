@@ -1,4 +1,4 @@
-# LabVIEW-Developing-QuickDrops
+# LabVIEW QuickDrops Manager
 
 [![Check_Broken_VIs](https://github.com/NEVSTOP-LAB/LabVIEW-QuickDrops-Manager/actions/workflows/Check_Broken_VIs.yml/badge.svg)](https://github.com/NEVSTOP-LAB/LabVIEW-QuickDrops-Manager/actions/workflows/Check_Broken_VIs.yml)
 
