@@ -1,5 +1,7 @@
 # LabVIEW-Developing-QuickDrops
 
+[![Check_Broken_VIs](https://github.com/NEVSTOP-LAB/LabVIEW-QuickDrops-Manager/actions/workflows/Check_Broken_VIs.yml/badge.svg)](https://github.com/NEVSTOP-LAB/LabVIEW-QuickDrops-Manager/actions/workflows/Check_Broken_VIs.yml)
+
 "NI LabVIEW palettes contain hundreds of useful VIs and functions, but, when you know the exact VI you need, navigating through the palette can take too much time. Quick Drop lets you rapidly find and place LabVIEW front panel and block diagram objects without navigating the palettes or initiating a search."
 
 -- [Boost Productivity with Quick Drop](http://www.ni.com/tutorial/7423/en/)
@@ -8,12 +10,12 @@
 
 ![image](https://user-images.githubusercontent.com/8196752/82533027-11c7b100-9b75-11ea-9739-a7f55656611a.png)
 
-### Feature:   
-1. Drag form QD list to key to change key assignment. 
-2. No need to Assign key to every QD, to support all your installed QDs. Type key words to execute QD. 
+### Feature:
+1. Drag form QD list to key to change key assignment.
+2. No need to Assign key to every QD, to support all your installed QDs. Type key words to execute QD.
 3. QD usage Count.
 4. Key Assignment Backup/Restore.
- 
+
 
 ### Default Key-QD Mapping
 
@@ -56,19 +58,19 @@ Merge Tokens of Ini Files.vi
 -
 Update QuickDrop ShortCuts Hints.vi
 ```
-- `Export QD ShortCuts`    
+- `Export QD ShortCuts`
    Export customized shortcuts settings to ini file.
-- `Import QD ShortCuts`    
+- `Import QD ShortCuts`
    Import customized shortcuts settings from an ini file.
 
-- `Open LabVIEW Folder.vi`   
+- `Open LabVIEW Folder.vi`
    Open LabVIEW Folder to view the LabVIEW.ini and LabVIEW.ini.bk.txt files.
-- `Open Customized Ini Tokens Folder.vi`  
+- `Open Customized Ini Tokens Folder.vi`
    Open the folder of customized ini files.
-- `Merge Tokens of Ini Files.vi`   
+- `Merge Tokens of Ini Files.vi`
    Merge the selected ini tokens to LabVIEW.ini file.
-   
-- `Update QuickDrop ShortCuts Hints`   
+
+- `Update QuickDrop ShortCuts Hints`
    Update the Hints in Block Diagram Quick Drop Window after you change the Key-QD Mapping
 
 
@@ -142,7 +144,7 @@ Default Shortcut - [Q]
 
 - `Reset Origin` : Resets the origin for all panes or the block diagram.
 - `Hide Controls`/`Show Controls`
-- `Enable Controls`/`Disble Controls`/`Disable&Grayout Controls` 
+- `Enable Controls`/`Disble Controls`/`Disable&Grayout Controls`
 - `Copy Boolean Caption to Boolean Text` : Copy selected boolean's caption to boolean text. If the booleans have no caption, label Text will be used instead.
 - `Toggle Digital Increment Decrement Visible ( Swithc Show Or Hide ).vi`
 
@@ -201,7 +203,7 @@ Default Shortcut - [A]
 
 ### Cluster Auto-Sizing
 
-Using a float dialog to choose cluster auto-sizing type. Press `Shift` to set the contained cluster items recursively. 
+Using a float dialog to choose cluster auto-sizing type. Press `Shift` to set the contained cluster items recursively.
 - None
 - Size to Fit
 - Arrange Horizontally
@@ -224,11 +226,11 @@ Default Shortcut - [B]
 
 ### Arrange VI Window
 
-**link**:[Quick Drop Keyboard Shortcut – Arrange VI Window](https://forums.ni.com/t5/Quick-Drop-Enthusiasts/Quick-Drop-Keyboard-Shortcut-Arrange-VI-Window/gpm-p/3867352?profile.language=zh-CN)    
+**link**:[Quick Drop Keyboard Shortcut – Arrange VI Window](https://forums.ni.com/t5/Quick-Drop-Enthusiasts/Quick-Drop-Keyboard-Shortcut-Arrange-VI-Window/gpm-p/3867352?profile.language=zh-CN)
 **Author**:Kosta
 
 When used on the front panel:
--Arranges controls and indicators to be consistent with the connector pane arrangement. 
+-Arranges controls and indicators to be consistent with the connector pane arrangement.
 -Resizes and moves the front panel to a consistent top left location on the primary monitor.
 
 When used on the block diagram:
@@ -249,7 +251,7 @@ Default Shortcut - NaN
 
 ### Create a Place VI Contents
 
-**link**: [Create a Place VI Contents](https://decibel.ni.com/content/docs/DOC-12725)  
+**link**: [Create a Place VI Contents](https://decibel.ni.com/content/docs/DOC-12725)
 **Author**:Jarrod S
 
 
@@ -274,7 +276,7 @@ Default Shortcut - [Shift][G]
 
 ### State Machine from Enum
 
-**link**: [QDKS - State Machine from Enum](https://forums.ni.com/t5/Quick-Drop-Enthusiasts/QDKS-State-Machine-from-Enum/gpm-p/3524404?profile.language=zh-CN)  
+**link**: [QDKS - State Machine from Enum](https://forums.ni.com/t5/Quick-Drop-Enthusiasts/QDKS-State-Machine-from-Enum/gpm-p/3524404?profile.language=zh-CN)
 **Author**:Eric M.
 
 I am kind of emo to post my first QD here. I figured this one would be of use for quite a bunch of developers.
