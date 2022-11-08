@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2019-02-21 11:18:16" Modified_Date="2022-11-08 14:19:39" Creator="ni" Comments="" ID="449418aa9b6181cc8c9e93f3dc6ee1f0">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2019-02-21 11:18:16" Modified_Date="2022-11-08 14:53:28" Creator="ni" Comments="" ID="ea2d9b11b827166bebbf0638b42abfd8">
   <Library_General_Settings>
     <Package_File_Name>LabVIEW_QuickDrops_Manager</Package_File_Name>
-    <Library_Version>0.11.1.4</Library_Version>
+    <Library_Version>0.12.0.5</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>vip</Library_Output_Folder>
@@ -26,6 +26,7 @@
       <Additional_External_Dependencies>oglib_file &gt;=4.0.1.22</Additional_External_Dependencies>
       <Additional_External_Dependencies>oglib_lvdata &gt;=4.2.0.21</Additional_External_Dependencies>
       <Additional_External_Dependencies>oglib_string &gt;=4.1.0.12</Additional_External_Dependencies>
+      <Package_Conflicts>nevstop_lib_developing_quickdrops &gt;=0.11.1.3</Package_Conflicts>
     </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI/>
@@ -37,7 +38,7 @@
     </Custom_Action_VIs>
     <VI_Package_Configuration_File>LabVIEW-QuickDrops-Manager.vipc</VI_Package_Configuration_File>
     <Description>
-      <One_Line_Description_Summary>Useful QuickDrops for LabVIEW Development</One_Line_Description_Summary>
+      <One_Line_Description_Summary>Tool for managing your QuickDrops.</One_Line_Description_Summary>
       <Description># LabVIEW-QuickDrops-Manager
 
 "NI LabVIEW palettes contain hundreds of useful VIs and functions, but, when you know the exact VI you need, navigating through the palette can take too much time. Quick Drop lets you rapidly find and place LabVIEW front panel and block diagram objects without navigating the palettes or initiating a search."
@@ -326,20 +327,8 @@ Default Shortcut - [S]
       <Copyright/>
       <Packager>NEVSTOP</Packager>
       <URL>https://github.com/NEVSTOP-LAB/LabVIEW-QuickDrops-Manager</URL>
-      <Release_Notes>New: 
-
-NEVSTOP_QD_Dialog: Add counter feature.
-
-NEW-QD:
-
-1. Open LabVIEW Program Folder.vi
-2. Toggle Digital Increment Decrement Visible ( Swithc Show Or Hide ).vi
-
-Fix:
-
-1. Reorg current QDs.
-2. Remove invalid QDs.
-3. Bugs.</Release_Notes>
+      <Release_Notes>Change name to LabVIEW-QuickDrops-Manager
+</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -529,7 +518,7 @@ Fix:
         <Path>.gitignore</Path>
       </Exclusions>
       <Exclusions>
-        <Path>vip</Path>
+        <Path>.github</Path>
       </Exclusions>
     </Source_Files>
     <License_Agreement_Filepath/>
