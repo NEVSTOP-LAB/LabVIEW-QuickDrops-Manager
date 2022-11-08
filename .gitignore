@@ -3,7 +3,7 @@
 *.aliases
 
 # VIP Compiled Folder
-/vip
+/vip/*
 
 # Ignore Folder
 /_Ignore
