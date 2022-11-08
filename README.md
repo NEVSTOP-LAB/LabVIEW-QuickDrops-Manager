@@ -10,12 +10,23 @@
 
 ![image](https://user-images.githubusercontent.com/8196752/82533027-11c7b100-9b75-11ea-9739-a7f55656611a.png)
 
-### Feature:
+### Feature
+
 1. Drag form QD list to key to change key assignment.
 2. No need to Assign key to every QD, to support all your installed QDs. Type key words to execute QD.
 3. QD usage Count.
 4. Key Assignment Backup/Restore.
 
+## Development Environment
+
+- LabVEW 2014
+- VIPM 2020.3
+
+### Dependencies
+
+- [OpenG Libraries](http://sine.ni.com/nips/cds/view/p/lang/zhs/nid/209027)
+- [MGI Libraries](https://www.vipm.io/package/mgi_lib_mgi_library/)
+- [JKI State Machine](https://github.com/JKISoftware/JKI-State-Machine)
 
 ### Default Key-QD Mapping
 
@@ -58,6 +69,7 @@ Merge Tokens of Ini Files.vi
 -
 Update QuickDrop ShortCuts Hints.vi
 ```
+
 - `Export QD ShortCuts`
    Export customized shortcuts settings to ini file.
 - `Import QD ShortCuts`
@@ -72,7 +84,6 @@ Update QuickDrop ShortCuts Hints.vi
 
 - `Update QuickDrop ShortCuts Hints`
    Update the Hints in Block Diagram Quick Drop Window after you change the Key-QD Mapping
-
 
 ## LabVIEW Built-in QuickDrops
 
