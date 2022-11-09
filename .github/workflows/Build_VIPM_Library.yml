@@ -38,7 +38,7 @@ jobs:
         with:
           LabVIEW_Version: 2014
           Operation: vipm_BuildVIPackage
-          Parameter1: ${{ github.workspace }}\src\LabVIEW-QuickDrops-Manager.vipb
+          Parameter1: ${{ github.workspace }}\LabVIEW-QuickDrops-Manager.vipb
           Parameter2: DAILYBUILD
           Parameter3: NO
 
