@@ -237,6 +237,23 @@ Create references with 'Build Array'/'buddle' together.
 Default Shortcut - [B]
 ```
 
+### Remove Unused Terminals on Nodes
+
+Help users select Bundler nodes, Unbundler nodes and Property nodes to remove unused terminals.
+
+Works for:
+- Bundle By Name (Bundler > NamedBundler)
+- Build Array (Bundler > BuildArray)
+- Concatenate Strings (Bundler)
+- Bundle (Bundler)
+- Merge Errors (Bundler)
+- Unbundle By Name (Unbundler > NamedUnbundler)
+- Property Node (ObjectFunction > Property)
+
+```
+Default Shortcut - [Y]
+```
+
 ## 3r Party QuickDrops
 
 ### Arrange VI Window
