@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2019-02-21 11:18:16" Modified_Date="2022-11-09 15:07:45" Creator="ni" Comments="" ID="d8a7017fab11cf8a1fa75cbecd247073">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2019-02-21 11:18:16" Modified_Date="2023-08-08 23:09:58" Creator="ni" Comments="" ID="ea20a34ebc209e4431938f8582f817ae">
   <Library_General_Settings>
     <Package_File_Name>LabVIEW_QuickDrops_Manager</Package_File_Name>
     <Library_Version>1.0.0.7</Library_Version>
@@ -32,7 +32,7 @@
       <Pre-Build_VI/>
       <Post-Build_VI/>
       <Pre-Install_VI/>
-      <Post-Install_VI/>
+      <Post-Install_VI>src\user.lib\_NEVSTOP\_QuickDrop\_VIPM\Post-Install Custom Action.vi</Post-Install_VI>
       <Pre-Uninstall_VI/>
       <Post-Uninstall_VI/>
     </Custom_Action_VIs>
@@ -519,9 +519,6 @@ Default Shortcut - [S]
       </Exclusions>
       <Exclusions>
         <Path>README.md</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>vip</Path>
       </Exclusions>
     </Source_Files>
     <License_Agreement_Filepath/>
