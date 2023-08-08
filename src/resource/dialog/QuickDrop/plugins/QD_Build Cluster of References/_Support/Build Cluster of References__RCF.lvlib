@@ -5,13 +5,13 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">335577088</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
-	<Item Name="Create References.vi" Type="VI" URL="../Create References.vi"/>
-	<Item Name="Connect References to Bundle By Name.vi" Type="VI" URL="../Connect References to Bundle By Name.vi"/>
-	<Item Name="Get Control References[] from GObjects[].vi" Type="VI" URL="../Get Control References[] from GObjects[].vi"/>
-	<Item Name="Create Cluster Typedef.vi" Type="VI" URL="../Create Cluster Typedef.vi"/>
-	<Item Name="Build Cluster of References.vi" Type="VI" URL="../Build Cluster of References.vi"/>
-	<Item Name="Create Stub VI.vi" Type="VI" URL="../Create Stub VI.vi"/>
-	<Item Name="Drop and wire SubVI.vi" Type="VI" URL="../Drop and wire SubVI.vi"/>
-	<Item Name="Resize and Position Bundle By Name.vi" Type="VI" URL="../Resize and Position Bundle By Name.vi"/>
-	<Item Name="Get Typedef Path Dialog.vi" Type="VI" URL="../Get Typedef Path Dialog.vi"/>
+	<Item Name="Create References.vi" Type="VI" URL="/&lt;resource&gt;/dialog/QuickDrop/plugins/QD_Build Cluster of References/_Support/Create References.vi"/>
+	<Item Name="Connect References to Bundle By Name.vi" Type="VI" URL="/&lt;resource&gt;/dialog/QuickDrop/plugins/QD_Build Cluster of References/_Support/Connect References to Bundle By Name.vi"/>
+	<Item Name="Get Control References[] from GObjects[].vi" Type="VI" URL="/&lt;resource&gt;/dialog/QuickDrop/plugins/QD_Build Cluster of References/_Support/Get Control References[] from GObjects[].vi"/>
+	<Item Name="Create Cluster Typedef.vi" Type="VI" URL="/&lt;resource&gt;/dialog/QuickDrop/plugins/QD_Build Cluster of References/_Support/Create Cluster Typedef.vi"/>
+	<Item Name="Build Cluster of References.vi" Type="VI" URL="/&lt;resource&gt;/dialog/QuickDrop/plugins/QD_Build Cluster of References/_Support/Build Cluster of References.vi"/>
+	<Item Name="Create Stub VI.vi" Type="VI" URL="/&lt;resource&gt;/dialog/QuickDrop/plugins/QD_Build Cluster of References/_Support/Create Stub VI.vi"/>
+	<Item Name="Drop and wire SubVI.vi" Type="VI" URL="/&lt;resource&gt;/dialog/QuickDrop/plugins/QD_Build Cluster of References/_Support/Drop and wire SubVI.vi"/>
+	<Item Name="Resize and Position Bundle By Name.vi" Type="VI" URL="/&lt;resource&gt;/dialog/QuickDrop/plugins/QD_Build Cluster of References/_Support/Resize and Position Bundle By Name.vi"/>
+	<Item Name="Get Typedef Path Dialog.vi" Type="VI" URL="/&lt;resource&gt;/dialog/QuickDrop/plugins/QD_Build Cluster of References/_Support/Get Typedef Path Dialog.vi"/>
 </Library>
