@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2019-02-21 11:18:16" Modified_Date="2023-10-11 11:42:16" Creator="ni" Comments="" ID="53b134e53c57fa62c37e631b5e3ab13c">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2019-02-21 11:18:16" Modified_Date="2023-10-11 11:44:05" Creator="ni" Comments="" ID="618477537f0de08553e0b6eb71c9a353">
   <Library_General_Settings>
     <Package_File_Name>LabVIEW_QuickDrops_Manager</Package_File_Name>
     <Library_Version>1.0.0.7</Library_Version>
@@ -43,7 +43,7 @@
 
 "NI LabVIEW palettes contain hundreds of useful VIs and functions, but, when you know the exact VI you need, navigating through the palette can take too much time. Quick Drop lets you rapidly find and place LabVIEW front panel and block diagram objects without navigating the palettes or initiating a search."
 
--- [Boost Productivity with Quick Drop](http://www.ni.com/tutorial/7423/en/)
+-- [Boost Productivity with Quick Drop](https://www.ni.com/en/support/documentation/supplemental/08/boost-labview-productivity-with-quick-drop.html)
 
 ## Ctrl+Q QuickDrop Manager
 
