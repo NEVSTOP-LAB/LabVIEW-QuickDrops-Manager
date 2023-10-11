@@ -8,7 +8,7 @@
 
 "NI LabVIEW palettes contain hundreds of useful VIs and functions, but, when you know the exact VI you need, navigating through the palette can take too much time. Quick Drop lets you rapidly find and place LabVIEW front panel and block diagram objects without navigating the palettes or initiating a search."
 
--- [Boost Productivity with Quick Drop](http://www.ni.com/tutorial/7423/en/)
+-- [Boost Productivity with Quick Drop](https://www.ni.com/en/support/documentation/supplemental/08/boost-labview-productivity-with-quick-drop.html)
 
 ## Ctrl+Q QuickDrop Manager
 
@@ -19,7 +19,6 @@
 1. Drag form QD list to key to change key assignment.
 2. No need to Assign key to every QD, to support all your installed QDs. Type key words to execute QD.
 3. QD usage Count.
-4. Key Assignment Backup/Restore.
 
 ## Development Environment
 
@@ -30,7 +29,6 @@
 
 - [OpenG Libraries](http://sine.ni.com/nips/cds/view/p/lang/zhs/nid/209027)
 - [MGI Libraries](https://www.vipm.io/package/mgi_lib_mgi_library/)
-- [JKI State Machine](https://github.com/JKISoftware/JKI-State-Machine)
 
 ### Default Key-QD Mapping
 
@@ -60,34 +58,6 @@
 `X` --> _Reserved_</br>
 `Y` --> _Reserved_</br>
 `Z` --> _Reserved_</br>
-
-### Tools/NEVSTOP/QuickDrop Menu
-
-```
-Import QD Shortcuts.vi
-Export QD Shortcuts.vi
--
-Open LabVIEW Folder.vi
-Open Customized Ini Tokens Folder.vi
-Merge Tokens of Ini Files.vi
--
-Update QuickDrop ShortCuts Hints.vi
-```
-
-- `Export QD ShortCuts`
-   Export customized shortcuts settings to ini file.
-- `Import QD ShortCuts`
-   Import customized shortcuts settings from an ini file.
-
-- `Open LabVIEW Folder.vi`
-   Open LabVIEW Folder to view the LabVIEW.ini and LabVIEW.ini.bk.txt files.
-- `Open Customized Ini Tokens Folder.vi`
-   Open the folder of customized ini files.
-- `Merge Tokens of Ini Files.vi`
-   Merge the selected ini tokens to LabVIEW.ini file.
-
-- `Update QuickDrop ShortCuts Hints`
-   Update the Hints in Block Diagram Quick Drop Window after you change the Key-QD Mapping
 
 ## LabVIEW Built-in QuickDrops
 
