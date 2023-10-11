@@ -29,7 +29,6 @@
 
 - [OpenG Libraries](http://sine.ni.com/nips/cds/view/p/lang/zhs/nid/209027)
 - [MGI Libraries](https://www.vipm.io/package/mgi_lib_mgi_library/)
-- [JKI State Machine](https://github.com/JKISoftware/JKI-State-Machine)
 
 ### Default Key-QD Mapping
 

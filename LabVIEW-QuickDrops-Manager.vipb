@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2019-02-21 11:18:16" Modified_Date="2023-10-11 11:00:44" Creator="ni" Comments="" ID="1421b21426fd3fbd596d120ca1a059aa">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2019-02-21 11:18:16" Modified_Date="2023-10-11 11:06:03" Creator="ni" Comments="" ID="d01e5185b064d1e0a74f8567d169ec79">
   <Library_General_Settings>
     <Package_File_Name>LabVIEW_QuickDrops_Manager</Package_File_Name>
     <Library_Version>1.0.0.7</Library_Version>
@@ -39,13 +39,31 @@
     <VI_Package_Configuration_File>LabVIEW-QuickDrops-Manager.vipc</VI_Package_Configuration_File>
     <Description>
       <One_Line_Description_Summary>Tool for managing your QuickDrops</One_Line_Description_Summary>
-      <Description># LabVIEW-QuickDrops-Manager
+      <Description># LabVIEW QuickDrops Manager
 
 "NI LabVIEW palettes contain hundreds of useful VIs and functions, but, when you know the exact VI you need, navigating through the palette can take too much time. Quick Drop lets you rapidly find and place LabVIEW front panel and block diagram objects without navigating the palettes or initiating a search."
 
 -- [Boost Productivity with Quick Drop](http://www.ni.com/tutorial/7423/en/)
 
-## Default Key-QD Mapping
+## Ctrl+Q QuickDrop Manager
+
+### Feature
+
+1. Drag form QD list to key to change key assignment.
+2. No need to Assign key to every QD, to support all your installed QDs. Type key words to execute QD.
+3. QD usage Count.
+
+## Development Environment
+
+- LabVEW 2014
+- VIPM 2020.3
+
+### Dependencies
+
+- [OpenG Libraries](http://sine.ni.com/nips/cds/view/p/lang/zhs/nid/209027)
+- [MGI Libraries](https://www.vipm.io/package/mgi_lib_mgi_library/)
+
+### Default Key-QD Mapping
 
 `A` --&gt; `[Ctrl]` Align and Distribute&lt;/br&gt;
 `B` --&gt; `[Ctrl]` Build Array of References&lt;/br&gt;
@@ -73,34 +91,6 @@
 `X` --&gt; _Reserved_&lt;/br&gt;
 `Y` --&gt; _Reserved_&lt;/br&gt;
 `Z` --&gt; _Reserved_&lt;/br&gt;
-
-## Tools/NEVSTOP/QuickDrop Menu
-
-```
-Import QD Shortcuts.vi
-Export QD Shortcuts.vi
--
-Open LabVIEW Folder.vi
-Open Customized Ini Tokens Folder.vi
-Merge Tokens of Ini Files.vi
--
-Update QuickDrop ShortCuts Hints.vi
-```
-- `Export QD ShortCuts`    
-   Export customized shortcuts settings to ini file.
-- `Import QD ShortCuts`    
-   Import customized shortcuts settings from an ini file.
-
-- `Open LabVIEW Folder.vi`   
-   Open LabVIEW Folder to view the LabVIEW.ini and LabVIEW.ini.bk.txt files.
-- `Open Customized Ini Tokens Folder.vi`  
-   Open the folder of customized ini files.
-- `Merge Tokens of Ini Files.vi`   
-   Merge the selected ini tokens to LabVIEW.ini file.
-   
-- `Update QuickDrop ShortCuts Hints`   
-   Update the Hints in Block Diagram Quick Drop Window after you change the Key-QD Mapping
-
 
 ## LabVIEW Built-in QuickDrops
 
@@ -172,7 +162,7 @@ Default Shortcut - [Q]
 
 - `Reset Origin` : Resets the origin for all panes or the block diagram.
 - `Hide Controls`/`Show Controls`
-- `Enable Controls`/`Disble Controls`/`Disable&amp;Grayout Controls` 
+- `Enable Controls`/`Disble Controls`/`Disable&amp;Grayout Controls`
 - `Copy Boolean Caption to Boolean Text` : Copy selected boolean's caption to boolean text. If the booleans have no caption, label Text will be used instead.
 - `Toggle Digital Increment Decrement Visible ( Swithc Show Or Hide ).vi`
 
@@ -231,7 +221,7 @@ Default Shortcut - [A]
 
 ### Cluster Auto-Sizing
 
-Using a float dialog to choose cluster auto-sizing type. Press `Shift` to set the contained cluster items recursively. 
+Using a float dialog to choose cluster auto-sizing type. Press `Shift` to set the contained cluster items recursively.
 - None
 - Size to Fit
 - Arrange Horizontally
@@ -250,15 +240,32 @@ Create references with 'Build Array'/'buddle' together.
 Default Shortcut - [B]
 ```
 
+### Remove Unused Terminals on Nodes
+
+Help users select Bundler nodes, Unbundler nodes and Property nodes to remove unused terminals.
+
+Works for:
+- Bundle By Name (Bundler &gt; NamedBundler)
+- Build Array (Bundler &gt; BuildArray)
+- Concatenate Strings (Bundler)
+- Bundle (Bundler)
+- Merge Errors (Bundler)
+- Unbundle By Name (Unbundler &gt; NamedUnbundler)
+- Property Node (ObjectFunction &gt; Property)
+
+```
+Default Shortcut - [Y]
+```
+
 ## 3r Party QuickDrops
 
 ### Arrange VI Window
 
-**link**:[Quick Drop Keyboard Shortcut – Arrange VI Window](https://forums.ni.com/t5/Quick-Drop-Enthusiasts/Quick-Drop-Keyboard-Shortcut-Arrange-VI-Window/gpm-p/3867352?profile.language=zh-CN)    
+**link**:[Quick Drop Keyboard Shortcut ¨C Arrange VI Window](https://forums.ni.com/t5/Quick-Drop-Enthusiasts/Quick-Drop-Keyboard-Shortcut-Arrange-VI-Window/gpm-p/3867352?profile.language=zh-CN)
 **Author**:Kosta
 
 When used on the front panel:
--Arranges controls and indicators to be consistent with the connector pane arrangement. 
+-Arranges controls and indicators to be consistent with the connector pane arrangement.
 -Resizes and moves the front panel to a consistent top left location on the primary monitor.
 
 When used on the block diagram:
@@ -279,7 +286,7 @@ Default Shortcut - NaN
 
 ### Create a Place VI Contents
 
-**link**: [Create a Place VI Contents](https://decibel.ni.com/content/docs/DOC-12725)  
+**link**: [Create a Place VI Contents](https://decibel.ni.com/content/docs/DOC-12725)
 **Author**:Jarrod S
 
 
@@ -304,7 +311,7 @@ Default Shortcut - [Shift][G]
 
 ### State Machine from Enum
 
-**link**: [QDKS - State Machine from Enum](https://forums.ni.com/t5/Quick-Drop-Enthusiasts/QDKS-State-Machine-from-Enum/gpm-p/3524404?profile.language=zh-CN)  
+**link**: [QDKS - State Machine from Enum](https://forums.ni.com/t5/Quick-Drop-Enthusiasts/QDKS-State-Machine-from-Enum/gpm-p/3524404?profile.language=zh-CN)
 **Author**:Eric M.
 
 I am kind of emo to post my first QD here. I figured this one would be of use for quite a bunch of developers.
@@ -327,8 +334,7 @@ Default Shortcut - [S]
       <Copyright/>
       <Packager>NEVSTOP</Packager>
       <URL>https://github.com/NEVSTOP-LAB</URL>
-      <Release_Notes>Change name to LabVIEW-QuickDrops-Manager
-</Release_Notes>
+      <Release_Notes>Publish to vipm.io</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
