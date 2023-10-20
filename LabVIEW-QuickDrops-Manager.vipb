@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2019-02-21 11:18:16" Modified_Date="2023-10-20 14:59:28" Creator="ni" Comments="" ID="56170431ca84bd78cf92514c7ba168ac">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2019-02-21 11:18:16" Modified_Date="2023-10-20 15:55:33" Creator="ni" Comments="" ID="f9952bb3c57906806c821417550adba6">
   <Library_General_Settings>
     <Package_File_Name>LabVIEW_QuickDrops_Manager</Package_File_Name>
     <Library_Version>1.0.0.7</Library_Version>
@@ -39,20 +39,20 @@
     <VI_Package_Configuration_File>LabVIEW-QuickDrops-Manager.vipc</VI_Package_Configuration_File>
     <Description>
       <One_Line_Description_Summary>Tool for managing your QuickDrops</One_Line_Description_Summary>
-      <Description># LabVIEW QuickDrops Manager
+      <Description>&lt;b&gt;LabVIEW QuickDrops Manager&lt;/b&gt;, which is also a quickdrop itself, assists in managing your quickdrops. With this tool, there is no need to assign a key to each quick drop and remember it; simply type keywords to search for and execute the desired action. Additional quickdrops have been added. For more information, please visit the wiki: https://github.com/NEVSTOP-LAB/LabVIEW-QuickDrops-Manager/wiki
 
-## Feature
+&lt;b&gt;Feature&lt;/b&gt;
 
 1. Drag form QD list to key to change key assignment.
 2. No need to Assign key to every QD, to support all your installed QDs. Type key words to execute QD.
 3. QD usage Count.
 
-## Development Environment
+&lt;b&gt;Development Environment&lt;/b&gt;
 
 - LabVEW 2014
 - VIPM 2020.3
 
-### Dependencies
+&lt;b&gt;Dependencies&lt;/b&gt;
 
 - [OpenG Libraries](http://sine.ni.com/nips/cds/view/p/lang/zhs/nid/209027)
 - [MGI Libraries](https://www.vipm.io/package/mgi_lib_mgi_library/)</Description>
