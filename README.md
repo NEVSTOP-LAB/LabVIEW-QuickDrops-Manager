@@ -6,7 +6,7 @@
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 
-## Ctrl+Q QuickDrop Manager
+LabVIEW QuickDrops Manager, which is also a quickdrop itself, assists in managing your quickdrops. With this tool, there is no need to assign a key to each quick drop and remember it; simply type keywords to search for and execute the desired action. Additional quickdrops have been added. For more information, please visit the wiki: https://github.com/NEVSTOP-LAB/LabVIEW-QuickDrops-Manager/wiki
 
 ![image](https://user-images.githubusercontent.com/8196752/82533027-11c7b100-9b75-11ea-9739-a7f55656611a.png)
 
