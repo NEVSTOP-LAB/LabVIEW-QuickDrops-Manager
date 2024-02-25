@@ -14,4 +14,7 @@
 	<Item Name="Disable Controls.vi" Type="VI" URL="../Disable Controls.vi"/>
 	<Item Name="Disable&amp;Grayout Controls.vi" Type="VI" URL="../Disable&amp;Grayout Controls.vi"/>
 	<Item Name="Toggle Digital Increment Decrement Visible ( Swithc Show Or Hide ).vi" Type="VI" URL="../Toggle Digital Increment Decrement Visible ( Swithc Show Or Hide ).vi"/>
+	<Item Name="Convert to Hex Display.vi" Type="VI" URL="../Convert to Hex Display.vi"/>
+	<Item Name="Convert to Binary Display.vi" Type="VI" URL="../Convert to Binary Display.vi"/>
+	<Item Name="Convert to Normal Display.vi" Type="VI" URL="../Convert to Normal Display.vi"/>
 </Library>

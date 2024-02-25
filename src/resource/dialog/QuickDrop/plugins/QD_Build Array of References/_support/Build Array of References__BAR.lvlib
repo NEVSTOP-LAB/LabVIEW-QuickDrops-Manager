@@ -5,8 +5,8 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
-	<Item Name="_Create References.vi" Type="VI" URL="/&lt;resource&gt;/dialog/QuickDrop/plugins/QD_Build Array of References/_support/_Create References.vi"/>
-	<Item Name="_Connect References to Build Array.vi" Type="VI" URL="/&lt;resource&gt;/dialog/QuickDrop/plugins/QD_Build Array of References/_support/_Connect References to Build Array.vi"/>
-	<Item Name="_Get Control References[] from GObjects[].vi" Type="VI" URL="/&lt;resource&gt;/dialog/QuickDrop/plugins/QD_Build Array of References/_support/_Get Control References[] from GObjects[].vi"/>
-	<Item Name="_Build Array of References.vi" Type="VI" URL="/&lt;resource&gt;/dialog/QuickDrop/plugins/QD_Build Array of References/_support/_Build Array of References.vi"/>
+	<Item Name="_Create References.vi" Type="VI" URL="../_Create References.vi"/>
+	<Item Name="_Connect References to Build Array.vi" Type="VI" URL="../_Connect References to Build Array.vi"/>
+	<Item Name="_Get Control References[] from GObjects[].vi" Type="VI" URL="../_Get Control References[] from GObjects[].vi"/>
+	<Item Name="_Build Array of References.vi" Type="VI" URL="../_Build Array of References.vi"/>
 </Library>
