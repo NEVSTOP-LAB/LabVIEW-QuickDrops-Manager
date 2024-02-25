@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2019-02-21 11:18:16" Modified_Date="2024-02-25 17:26:11" Creator="ni" Comments="" ID="c34a84bed028a028429cde443f5c835a">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2019-02-21 11:18:16" Modified_Date="2024-02-25 18:06:54" Creator="ni" Comments="" ID="4d5141cb7bfd27dac22df8e019551e1a">
   <Library_General_Settings>
     <Package_File_Name>LabVIEW_QuickDrops_Manager</Package_File_Name>
     <Library_Version>1.0.0.7</Library_Version>
@@ -59,7 +59,8 @@
       <Copyright/>
       <Packager>NEVSTOP</Packager>
       <URL>https://github.com/NEVSTOP-LAB</URL>
-      <Release_Notes>[add] #29 add fit VI window to content  -  https://github.com/NEVSTOP-LAB/LabVIEW-QuickDrops-Manager/wiki/Fit-VI-Window-to-Content
+      <Release_Notes>[add] #22 Change String/Numeric Display Style - https://github.com/NEVSTOP-LAB/LabVIEW-QuickDrops-Manager/wiki/Control-Operation
+[add] #29 add fit VI window to content  -  https://github.com/NEVSTOP-LAB/LabVIEW-QuickDrops-Manager/wiki/Fit-VI-Window-to-Content
 [fix] fix conflicting files</Release_Notes>
     </Description>
     <Destinations>
