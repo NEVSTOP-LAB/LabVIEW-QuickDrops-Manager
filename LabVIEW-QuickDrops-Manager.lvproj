@@ -28,6 +28,7 @@
 			<Item Name="user.lib" Type="Folder" URL="../src/user.lib">
 				<Property Name="NI.DISK" Type="Bool">true</Property>
 			</Item>
+			<Item Name="testVI.vi" Type="VI" URL="../src/_TEST/testVI.vi"/>
 		</Item>
 		<Item Name="LabVIEW-QuickDrops-Manager.vipb" Type="Document" URL="../LabVIEW-QuickDrops-Manager.vipb"/>
 		<Item Name="README.md" Type="Document" URL="../README.md"/>

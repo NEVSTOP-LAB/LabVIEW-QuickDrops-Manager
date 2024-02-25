@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2019-02-21 11:18:16" Modified_Date="2023-10-20 15:55:33" Creator="ni" Comments="" ID="f9952bb3c57906806c821417550adba6">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2019-02-21 11:18:16" Modified_Date="2024-02-25 17:26:11" Creator="ni" Comments="" ID="c34a84bed028a028429cde443f5c835a">
   <Library_General_Settings>
     <Package_File_Name>LabVIEW_QuickDrops_Manager</Package_File_Name>
     <Library_Version>1.0.0.7</Library_Version>
@@ -59,7 +59,8 @@
       <Copyright/>
       <Packager>NEVSTOP</Packager>
       <URL>https://github.com/NEVSTOP-LAB</URL>
-      <Release_Notes>create wiki for all included quick drops.  link: https://github.com/NEVSTOP-LAB/LabVIEW-QuickDrops-Manager/wiki</Release_Notes>
+      <Release_Notes>[add] #29 add fit VI window to content  -  https://github.com/NEVSTOP-LAB/LabVIEW-QuickDrops-Manager/wiki/Fit-VI-Window-to-Content
+[fix] fix conflicting files</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -254,6 +255,9 @@
       <Exclusions>
         <Path>LICENSE</Path>
       </Exclusions>
+      <Exclusions>
+        <Path>src/_TEST</Path>
+      </Exclusions>
     </Source_Files>
     <License_Agreement_Filepath>LICENSE</License_Agreement_Filepath>
     <Licensing_and_Activation>
@@ -310,6 +314,7 @@
       <close_labview_before_install>false</close_labview_before_install>
       <restart_labview_after_install>false</restart_labview_after_install>
       <skip_mass_compile_after_install>false</skip_mass_compile_after_install>
+      <install_into_global_environment>false</install_into_global_environment>
     </LabVIEW>
     <VI_Docs>
       <Edit_VI_Description>false</Edit_VI_Description>
