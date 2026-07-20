@@ -105,11 +105,6 @@
 - LabVIEW 2017
 - VIPM 2020.3
 
-### 依赖
-
-- [OpenG Libraries](http://sine.ni.com/nips/cds/view/p/lang/zhs/nid/209027)
-- [MGI Libraries](https://www.vipm.io/package/mgi_lib_mgi_library/)
-
 ## 安装
 
 ### 通过 VIPM 安装（推荐）

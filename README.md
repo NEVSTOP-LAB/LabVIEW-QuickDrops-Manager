@@ -25,11 +25,6 @@
 - LabVIEW 2014
 - VIPM 2020.3
 
-### Dependencies
-
-- [OpenG Libraries](http://sine.ni.com/nips/cds/view/p/lang/zhs/nid/209027)
-- [MGI Libraries](https://www.vipm.io/package/mgi_lib_mgi_library/)
-
 ### Default Key-QD Mapping
 
 `A` --> `[Ctrl]` Align and Distribute</br>
