@@ -1,3 +1,5 @@
+[English](README.md) | [中文](README(zh-cn).md)
+
 # LabVIEW QuickDrops Manager
 
 <a href="https://www.vipm.io/package/labview_quickdrops_manager/"> <img src="https://www.vipm.io/package/labview_quickdrops_manager/badge.svg?metric=installs"></a>
@@ -20,13 +22,8 @@
 
 ## Development Environment
 
-- LabVEW 2014
+- LabVIEW 2014
 - VIPM 2020.3
-
-### Dependencies
-
-- [OpenG Libraries](http://sine.ni.com/nips/cds/view/p/lang/zhs/nid/209027)
-- [MGI Libraries](https://www.vipm.io/package/mgi_lib_mgi_library/)
 
 ### Default Key-QD Mapping
 
