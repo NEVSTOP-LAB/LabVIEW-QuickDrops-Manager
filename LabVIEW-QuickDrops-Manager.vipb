@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2019-02-21 11:18:16" Modified_Date="2026-07-20 16:06:39" Creator="ni" Comments="" ID="f6d528d559cd01cd454849f45a97c243">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2019-02-21 11:18:16" Modified_Date="2026-07-20 16:13:59" Creator="ni" Comments="" ID="8351c5214f830349053edfec2031fbb9">
   <Library_General_Settings>
     <Package_File_Name>LabVIEW_QuickDrops_Manager</Package_File_Name>
     <Library_Version>1.0.0.7</Library_Version>
@@ -17,8 +17,6 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
-      <Additional_External_Dependencies>mgi_lib_file &gt;=1.1.0.4</Additional_External_Dependencies>
-      <Additional_External_Dependencies>mgi_lib_string &gt;=1.1.1.5</Additional_External_Dependencies>
       <Additional_External_Dependencies>oglib_appcontrol &gt;=4.1.0.7</Additional_External_Dependencies>
       <Additional_External_Dependencies>oglib_array &gt;=4.1.1.14</Additional_External_Dependencies>
       <Additional_External_Dependencies>oglib_string &gt;=4.1.0.12</Additional_External_Dependencies>
