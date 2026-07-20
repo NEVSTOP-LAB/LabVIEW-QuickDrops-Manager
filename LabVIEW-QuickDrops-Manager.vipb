@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2019-02-21 11:18:16" Modified_Date="2026-07-20 16:13:59" Creator="ni" Comments="" ID="8351c5214f830349053edfec2031fbb9">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2019-02-21 11:18:16" Modified_Date="2026-07-20 22:06:50" Creator="ni" Comments="" ID="9aa827fb1e2151e1eb052ea772ad43b7">
   <Library_General_Settings>
     <Package_File_Name>LabVIEW_QuickDrops_Manager</Package_File_Name>
     <Library_Version>1.0.0.7</Library_Version>
@@ -17,9 +17,6 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
-      <Additional_External_Dependencies>oglib_appcontrol &gt;=4.1.0.7</Additional_External_Dependencies>
-      <Additional_External_Dependencies>oglib_array &gt;=4.1.1.14</Additional_External_Dependencies>
-      <Additional_External_Dependencies>oglib_string &gt;=4.1.0.12</Additional_External_Dependencies>
       <Package_Conflicts>nevstop_lib_developing_quickdrops &gt;=0.11.1.3</Package_Conflicts>
     </Package_Dependencies>
     <Custom_Action_VIs>
