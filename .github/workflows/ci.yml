@@ -6,6 +6,8 @@ on:
       - main
 
   push:
+    branches:
+      - main
     paths-ignore:
       - '**.md'
       - '**.txt'
