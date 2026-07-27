@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2019-02-21 11:18:16" Modified_Date="2026-07-21 16:42:33" Creator="ni" Comments="" ID="5334e8ee0bc5c98271ba66b7a96e16b5">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2019-02-21 11:18:16" Modified_Date="2026-07-27 16:06:23" Creator="ni" Comments="" ID="3b7cebb99e63b4d77ce0cc24502d385f">
   <Library_General_Settings>
     <Package_File_Name>LabVIEW_QuickDrops_Manager</Package_File_Name>
     <Library_Version>1.0.0.8</Library_Version>
@@ -50,9 +50,11 @@
       <Copyright/>
       <Packager>NEVSTOP</Packager>
       <URL>https://github.com/NEVSTOP-LAB</URL>
-      <Release_Notes>[add] #22 Change String/Numeric Display Style - https://github.com/NEVSTOP-LAB/LabVIEW-QuickDrops-Manager/wiki/Control-Operation
-[add] #29 add fit VI window to content  -  https://github.com/NEVSTOP-LAB/LabVIEW-QuickDrops-Manager/wiki/Fit-VI-Window-to-Content
-[fix] fix conflicting files</Release_Notes>
+      <Release_Notes>[add] #22 Change string/numeric display style
+[add] #29 Add fit-to-content for VI window
+[add] #37 Add shortcut for converting String, Array, Ring, ComboBox to Enum @datadataup
+[fix] Fix conflicting files
+[fix] Remove dependency libraries</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -249,6 +251,15 @@
       </Exclusions>
       <Exclusions>
         <Path>DEV ENVIRONMENT LabVIEW 2017</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>README(zh-cn).md</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>src/user.lib/_NEVSTOP/_QuickDrop/library icon.jpg</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>src/user.lib/_NEVSTOP/_QuickDrop/_LabVIEW.ini</Path>
       </Exclusions>
     </Source_Files>
     <License_Agreement_Filepath>LICENSE</License_Agreement_Filepath>
