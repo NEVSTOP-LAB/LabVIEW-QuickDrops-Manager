@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>Insert Bundle Unbundle — 使用说明</title>
+<style>
+  body { font-family: "Segoe UI", "Microsoft YaHei", sans-serif; line-height: 1.7; max-width: 900px; margin: 2rem auto; padding: 0 1.2rem; color: #222; }
+  h1 { font-size: 1.6rem; border-bottom: 2px solid #006699; padding-bottom: .4rem; }
+  h2 { font-size: 1.15rem; margin-top: 1.8rem; color: #006699; }
+  code { background: #f2f4f6; padding: .1rem .35rem; border-radius: 3px; font-family: Consolas, monospace; }
+  table { border-collapse: collapse; width: 100%; margin: .6rem 0; }
+  th, td { border: 1px solid #ccd3d8; padding: .4rem .6rem; text-align: left; vertical-align: top; }
+  th { background: #eef3f6; }
+  .note { background: #fff8e1; border-left: 4px solid #f0ad4e; padding: .6rem .9rem; margin: .8rem 0; }
+</style>
+</head>
+<body>
+
+<h1>Insert Bundle Unbundle</h1>
+
+<p>把选中的多条 wire 按位置自上而下 Bundle 成一个 cluster，再立即 Unbundle，把每个元素接回原来的源端子与下游端子。过程结束后数据流与改动前一致，只是中间多了一对 Bundle / Unbundle。</p>
+
+<h2>限制</h2>
+<ul>
+  <li>每根选中的 wire 只能有<strong>一个下游端子</strong>（无分叉）。</li>
+  <li>选中对象不是全为 wire、wire 少于 2 根、或存在分叉时：返回错误（<code>code = 1</code>，<code>source = Bundle Unbundle aborted</code>），并放弃改动。</li>
+</ul>
+
+<h2>端子</h2>
+<p>连接器板为 4-2-2-4（pattern 4815），已按 NI 风格指南分配：输入在左、输出在右、错误端子在下方两角。</p>
+<table>
+  <tr><th>端子</th><th>conIdx</th><th>类型</th><th>说明</th></tr>
+  <tr><td><code>QD Launch VI Ref</code></td><td>11</td><td>VI 引用，输入</td><td>QuickDrop 启动所在的 VI；取它的 Block Diagram 的 <code>Selection List[]</code>。正常使用时接模板的 <code>QD Launch VI Ref</code>。</td></tr>
+  <tr><td><code>Diagnostic VI Path</code></td><td>10</td><td>字符串，输入</td><td>留空即按选区工作。给路径时改为打开该 VI，对本框图内<strong>所有</strong> wire 操作，结束时保存该 VI（测试与批处理用）。</td></tr>
+  <tr><td><code>error in (no error)</code></td><td>8</td><td>错误簇，输入</td><td>接模板的 <code>error in (no error)</code>。</td></tr>
+  <tr><td><code>changes made?</code></td><td>3</td><td>布尔，输出</td><td>是否实际改动了框图。</td></tr>
+  <tr><td><code>error out</code></td><td>0</td><td>错误簇，输出</td><td>接模板的 <code>error out</code>。</td></tr>
+</table>
+
+<h2>在 QuickDrop 插件模板中接入</h2>
+<ol>
+  <li>用 <code>NEVSTOP_QuickDrop/QuickDrop Plugin Template.vit</code> 新建插件 VI。</li>
+  <li>在框图里放置本 VI（函数选板 → Select a VI…）。</li>
+  <li>连 <code>QD Launch VI Ref</code> → 本 VI 的 <code>QD Launch VI Ref</code>；连 <code>error in (no error)</code> → 本 VI 的 <code>error in</code>；本 VI 的 <code>error out</code> → 模板的 <code>error out</code>。</li>
+  <li><code>Diagnostic VI Path</code> 留空；<code>changes made?</code> 可接可不接。</li>
+  <li>在插件 VI 的描述里加一行 <code>Default Shortcut - [X]</code>（X 为想要的快捷键字母）。</li>
+</ol>
+
+<div class="note">
+本 VI <strong>不</strong>开启 Undo 事务，撤销由调用方（插件模板 / 管理器）负责；本 VI 返回错误时应让事务失败，避免留下半成品改动。
+</div>
+
+<h2>行为</h2>
+<ul>
+  <li>线序：按每根 wire 的 <code>Master Bounds Rect.Top</code> 自上而下排序，位置相同的按下标先后。</li>
+  <li>新节点位置：以最上方那根线为基准，Bundle 在其右侧 60 像素，Unbundle 在其右侧 160 像素；cluster 连线在两者之间。</li>
+  <li>cluster 元素顺序与原始线的上下顺序一致，元素名取自源控件名。</li>
+  <li>原有 wire 被删除后按“源端子 → Bundle 输入 i”与“Unbundle 输出 i → 原下游端子”重新连线。</li>
+</ul>
+
+<h2>验证记录</h2>
+<ul>
+  <li>三根互相独立的数据线（double / string / bool）：插入成功，<code>changes made? = TRUE</code>，无错误；导出目标 VI 可见源控件与 Bundle 元素一一对应、Unbundle 输出接回原指示器，上下顺序保持。</li>
+  <li>存在分叉的线（一个源接两个下游）：返回 <code>code = 1</code>，<code>changes made? = FALSE</code>，目标 VI 未被改动。</li>
+</ul>
+
+</body>
+</html>
