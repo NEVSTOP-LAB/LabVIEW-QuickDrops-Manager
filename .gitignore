@@ -5,7 +5,7 @@
 
 # VIP Compiled Folder
 /vip/*
-.tmp/*
+.tmp/
 
 # Ignore Folder
 /_Ignore
