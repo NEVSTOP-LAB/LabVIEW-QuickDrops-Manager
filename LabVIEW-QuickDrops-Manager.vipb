@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2019-02-21 11:18:16" Modified_Date="2026-07-27 16:06:23" Creator="ni" Comments="" ID="3b7cebb99e63b4d77ce0cc24502d385f">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2019-02-21 11:18:16" Modified_Date="2026-09-29 08:30:54" Creator="ni" Comments="" ID="18d4b90514f1f78d60beb4cf7aa84f84">
   <Library_General_Settings>
     <Package_File_Name>LabVIEW_QuickDrops_Manager</Package_File_Name>
-    <Library_Version>1.0.0.8</Library_Version>
+    <Library_Version>2.0.0.8</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>vip</Library_Output_Folder>
@@ -14,6 +14,8 @@
     <Product_Name>LabVIEW-QuickDrops-Manager</Product_Name>
     <Was_Built>true</Was_Built>
     <Target>LabVIEW</Target>
+    <Package_LabVIEW_Save_Version>false</Package_LabVIEW_Save_Version>
+    <LabVIEW_Save_Version/>
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
@@ -251,9 +253,6 @@
       </Exclusions>
       <Exclusions>
         <Path>DEV ENVIRONMENT LabVIEW 2017</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>README(zh-cn).md</Path>
       </Exclusions>
       <Exclusions>
         <Path>src/user.lib/_NEVSTOP/_QuickDrop/library icon.jpg</Path>
