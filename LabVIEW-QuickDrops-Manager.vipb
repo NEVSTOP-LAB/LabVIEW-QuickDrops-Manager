@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2019-02-21 11:18:16" Modified_Date="2026-09-29 08:30:54" Creator="ni" Comments="" ID="18d4b90514f1f78d60beb4cf7aa84f84">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2019-02-21 11:18:16" Modified_Date="2026-09-29 10:22:48" Creator="ni" Comments="" ID="e8a9fcb5bd548ad60bc70dbf0c0192ca">
   <Library_General_Settings>
     <Package_File_Name>LabVIEW_QuickDrops_Manager</Package_File_Name>
     <Library_Version>2.0.0.8</Library_Version>
@@ -42,19 +42,16 @@
 
 &lt;b&gt;Development Environment&lt;/b&gt;
 
-- LabVEW 2014
+- LabVEW 2017
 - VIPM 2020.3
-
-&lt;b&gt;Dependencies&lt;/b&gt;
-
-- [OpenG Libraries](http://sine.ni.com/nips/cds/view/p/lang/zhs/nid/209027)
-- [MGI Libraries](https://www.vipm.io/package/mgi_lib_mgi_library/)</Description>
+</Description>
       <Copyright/>
       <Packager>NEVSTOP</Packager>
       <URL>https://github.com/NEVSTOP-LAB</URL>
       <Release_Notes>[add] #22 Change string/numeric display style
 [add] #29 Add fit-to-content for VI window
 [add] #37 Add shortcut for converting String, Array, Ring, ComboBox to Enum @datadataup
+[add] add "insert bundle &amp; unbundle" plugin
 [fix] Fix conflicting files
 [fix] Remove dependency libraries</Release_Notes>
     </Description>
