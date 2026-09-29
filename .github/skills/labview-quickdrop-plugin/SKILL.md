@@ -26,6 +26,14 @@ argument-hint: '[插件功能或目标 VI，留空则从当前上下文提取]'
 
 语法、节点、VI Scripting 的完整事实清单见 [references/aixml-and-scripting-facts.md](./references/aixml-and-scripting-facts.md)。
 
+## 保存方决定 VI 版本（本仓库硬约束）
+
+- CI（`Check_Broken_VIs`）在 **LabVIEW 2017** 上加载工作区内所有 VI；任何被更高版本保存过的 VI 都会报 `VI version (26.0) is newer than LabVIEW version (17.0)` 并让 CI 变红。改动现有 VI 前先确认保存它的是哪个 LabVIEW。
+- `LabVIEW-QuickDrops-Manager.lvproj` 带 `NI.LV.All.SaveVersion = 17.0`：**该工程处于活动状态时**生成的 VI 才是 17.0 格式。会话开始前确认工程已激活，否则会产出 26.0 的 VI。
+- `ConvertVIToAIXML` / `ConvertVIsToAIXML` **不是纯读**：对保存版本高于工程 SaveVersion 的 VI，它会按工程版本重写文件（实测 4 个 `NEVSTOP_QuickDrop/__QDMgr.vi` 因此在磁盘上被改成 17.0）。批量导出后要 `git status` 核对。
+- AIXML 只能新建 VI、`ApplyAIXMLToVI` 对第三方客户端不可用，因此**改现有 VI 的描述**要另找保存方：生成一个 helper VI，用 `Open Application Reference` + `Open VI Reference`（`application reference (local)`）指向 2017 实例的 VI Server，写 `{LV.VI}` 的 `VI Description` 属性后 `Save:Instrument`，保存方即 2017，文件版本不变。helper 由 `RunVIAsTopLevel` 驱动时，**只有字符串指示器能回传**（布尔/数值静默变成空串，错误信息只看字符串型 `source`）。
+- 内置原语（如 `Open Application Reference`、`Select`）的节点名与端子名不要猜：用 `SearchInfoCache` + `LookupInfoCacheItems` 取现成原型，端子名照抄（`machine name ("": open local reference)`、`Select` 的输出 `s? t\3Af`）。移位寄存器的线名要用左右端子自身的 uid，不是 ShiftReg 的 uid。
+
 ## 插件契约
 
 - 插件放在 QuickDrop 的 `plugins/` 下，一插件一目录；用插件模板新建以取得标准连接器板：`error in` 8、`QD Launch VI Ref` 11、`Shift Pressed?` 7、`Variant in` 6、`QD Combo Box Ref` 10、`error out` 0、`Variant out` 4、`Undo Name` 无 conIdx。
