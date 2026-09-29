@@ -1,3 +1,5 @@
+[English](#english-description) | [中文](#中文描述)
+
 # LabVIEW QuickDrops Manager
 
 <a href="https://www.vipm.io/package/labview_quickdrops_manager/"> <img src="https://www.vipm.io/package/labview_quickdrops_manager/badge.svg?metric=installs"></a>
@@ -7,6 +9,8 @@
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 -----
+
+## English Description
 
 **LabVIEW QuickDrops Manager**, which is also a quickdrop itself, assists in managing your quickdrops. With this tool, there is no need to assign a key to each quick drop and remember it; simply type keywords to search for and execute the desired action. Additional quickdrops have been added. For more information, please visit the wiki: https://github.com/NEVSTOP-LAB/LabVIEW-QuickDrops-Manager/wiki
 
@@ -18,7 +22,7 @@
 2. No need to Assign key to every QD, to support all your installed QDs. Type key words to execute QD.
 3. QD usage Count.
 
-## Development Environment
+### Development Environment
 
 - LabVIEW 2017
 - VIPM 2020.3
@@ -54,6 +58,8 @@
 
 -----
 
+## 中文描述
+
 **LabVIEW QuickDrops Manager** 本身也是一个 QuickDrop 插件，用于管理你的所有 QuickDrop 快捷操作。使用它无需为每个 QuickDrop 分配按键并记住，只要输入关键词即可搜索并执行想要的操作。本工具额外内置了一些 QuickDrop。更多信息请访问 wiki：https://github.com/NEVSTOP-LAB/LabVIEW-QuickDrops-Manager/wiki
 
 ### 特性
@@ -62,7 +68,7 @@
 2. 无需为每个 QD 分配按键，即可支持所有已安装的 QD；输入关键词即可执行 QD。
 3. QD 使用次数统计。
 
-## 开发环境
+### 开发环境
 
 - LabVIEW 2017
 - VIPM 2020.3
